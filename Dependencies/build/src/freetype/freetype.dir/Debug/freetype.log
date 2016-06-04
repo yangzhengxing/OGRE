@@ -1,0 +1,190 @@
+﻿Build started 2016/3/24 20:31:37.
+     1>Project "D:\ogre\Dependencies\build\src\freetype\freetype.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/ogre/Dependencies/src/freetype/CMakeLists.txt
+         CMake does not need to re-run because D:\ogre\Dependencies\build\src\freetype\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\Dependencies\src\freetype\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D WINVER=0x0500 /D FT2_BUILD_LIBRARY /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freetype.dir\Debug\\" /Fd"freetype.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\..\src\freetype\src\autofit\autofit.c ..\..\..\src\freetype\src\base\ftbase.c ..\..\..\src\freetype\src\base\ftbbox.c ..\..\..\src\freetype\src\base\ftbitmap.c ..\..\..\src\freetype\src\base\ftfstype.c ..\..\..\src\freetype\src\base\ftgasp.c ..\..\..\src\freetype\src\base\ftglyph.c ..\..\..\src\freetype\src\base\ftinit.c ..\..\..\src\freetype\src\base\ftmm.c ..\..\..\src\freetype\src\base\ftpfr.c ..\..\..\src\freetype\src\base\ftstroke.c ..\..\..\src\freetype\src\base\ftsynth.c ..\..\..\src\freetype\src\base\ftsystem.c ..\..\..\src\freetype\src\base\fttype1.c ..\..\..\src\freetype\src\base\ftwinfnt.c ..\..\..\src\freetype\src\bdf\bdf.c ..\..\..\src\freetype\src\bzip2\ftbzip2.c ..\..\..\src\freetype\src\cache\ftcache.c ..\..\..\src\freetype\src\cff\cff.c ..\..\..\src\freetype\src\cid\type1cid.c ..\..\..\src\freetype\src\gzip\ftgzip.c ..\..\..\src\freetype\src\lzw\ftlzw.c ..\..\..\src\freetype\src\pcf\pcf.c ..\..\..\src\freetype\src\pfr\pfr.c ..\..\..\src\freetype\src\psaux\psaux.c ..\..\..\src\freetype\src\pshinter\pshinter.c ..\..\..\src\freetype\src\psnames\psmodule.c ..\..\..\src\freetype\src\raster\raster.c ..\..\..\src\freetype\src\sfnt\sfnt.c ..\..\..\src\freetype\src\smooth\smooth.c ..\..\..\src\freetype\src\truetype\truetype.c ..\..\..\src\freetype\src\type1\type1.c ..\..\..\src\freetype\src\type42\type42.c ..\..\..\src\freetype\src\winfonts\winfnt.c
+         autofit.c
+     1>d:\ogre\dependencies\src\freetype\src\autofit\afglobal.c(280): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+         ftbase.c
+     1>d:\ogre\dependencies\src\freetype\src\base\ftrfork.c(510): warning C4267: 'initializing' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\base\ftrfork.c(546): warning C4267: 'initializing' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\base\ftrfork.c(792): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\base\ftrfork.c(798): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\ogre\dependencies\src\freetype\src\base\ftrfork.c(808): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>d:\ogre\dependencies\src\freetype\src\base\ftrfork.c(809): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+         ftbbox.c
+         ftbitmap.c
+         ftfstype.c
+         ftgasp.c
+         ftglyph.c
+         ftinit.c
+         ftmm.c
+         ftpfr.c
+         ftstroke.c
+         ftsynth.c
+         ftsystem.c
+     1>..\..\..\src\freetype\src\base\ftsystem.c(240): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         fttype1.c
+         ftwinfnt.c
+         bdf.c
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(772): warning C4244: 'function' : conversion from 'ptrdiff_t' to 'unsigned long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(776): warning C4244: 'function' : conversion from 'ptrdiff_t' to 'unsigned long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(1054): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(1196): warning C4267: 'function' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(1984): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(1997): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(2319): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdflib.c(2327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\ogre\dependencies\src\freetype\src\bdf\bdfdrivr.c(269): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+         ftbzip2.c
+         ftcache.c
+     1>d:\ogre\dependencies\src\freetype\src\cache\ftcmru.c(266): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cache\ftcmanag.c(595): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cache\ftccache.c(303): warning C4267: '-=' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cache\ftccache.c(381): warning C4267: '-=' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cache\ftccache.c(436): warning C4267: '+=' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cache\ftccache.c(614): warning C4267: '-=' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+         cff.c
+     1>d:\ogre\dependencies\src\freetype\src\cff\cffobjs.c(404): warning C4267: 'initializing' : conversion from 'size_t' to 'FT_Int32', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cff\cffobjs.c(441): warning C4267: '=' : conversion from 'size_t' to 'FT_Int32', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cff\cffobjs.c(442): warning C4267: '=' : conversion from 'size_t' to 'FT_Int32', possible loss of data
+         type1cid.c
+     1>d:\ogre\dependencies\src\freetype\src\cid\cidparse.c(120): warning C4244: '+=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\cid\cidparse.c(125): warning C4244: '+=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+         Generating Code...
+         Compiling...
+         ftgzip.c
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(122): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(157): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(160): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(169): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(189): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(192): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(203): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(212): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(226): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(230): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(233): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infcodes.c(236): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(139): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(165): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(182): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(186): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(192): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(201): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(202): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(217): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(225): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(232): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(241): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(258): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(271): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(284): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(297): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(326): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(332): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(339): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(357): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(361): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(364): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\gzip\infblock.c(367): warning C4244: '+=' : conversion from '__int64' to 'uLong', possible loss of data
+         ftlzw.c
+     1>d:\ogre\dependencies\src\freetype\src\lzw\ftzopen.c(136): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+         pcf.c
+     1>d:\ogre\dependencies\src\freetype\src\pcf\pcfread.c(1062): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\pcf\pcfdrivr.c(535): warning C4267: 'function' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\pcf\pcfdrivr.c(540): warning C4267: 'function' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+         pfr.c
+     1>d:\ogre\dependencies\src\freetype\src\pfr\pfrload.c(460): warning C4244: 'function' : conversion from 'FT_PtrDist' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\pfr\pfrobjs.c(508): warning C4267: 'function' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+         psaux.c
+     1>d:\ogre\dependencies\src\freetype\src\psaux\psobjs.c(205): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\psaux\psobjs.c(251): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\psaux\afmparse.c(404): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+         pshinter.c
+         psmodule.c
+         raster.c
+     1>d:\ogre\dependencies\src\freetype\src\raster\ftraster.c(3501): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+         sfnt.c
+         smooth.c
+         truetype.c
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(223): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(708): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(787): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(1171): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(1246): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(1364): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(1379): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(1384): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\truetype\ttgxvar.c(1438): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+         type1.c
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1parse.c(120): warning C4267: 'function' : conversion from 'size_t' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1parse.c(419): warning C4244: '=' : conversion from '__int64' to 'FT_ULong', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1load.c(618): warning C4244: 'function' : conversion from 'FT_PtrDist' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(261): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(281): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(293): warning C4244: '=' : conversion from 'FT_PtrDist' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(313): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(332): warning C4244: '=' : conversion from 'FT_PtrDist' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(526): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(532): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(538): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(544): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+     1>d:\ogre\dependencies\src\freetype\src\type1\t1driver.c(550): warning C4267: '=' : conversion from 'size_t' to 'FT_Long', possible loss of data
+         type42.c
+         winfnt.c
+     1>..\..\..\src\freetype\src\winfonts\winfnt.c(858): warning C4244: 'function' : conversion from 'FT_PtrDist' to 'FT_Long', possible loss of data
+     1>..\..\..\src\freetype\src\winfonts\winfnt.c(869): warning C4244: 'function' : conversion from 'FT_PtrDist' to 'FT_Long', possible loss of data
+     1>..\..\..\src\freetype\src\winfonts\winfnt.c(869): warning C4267: 'function' : conversion from 'size_t' to 'FT_Long', possible loss of data
+         Generating Code...
+       Lib:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\ogre\Dependencies\build\src\freetype\Debug\freetype_d.lib" /NOLOGO /MACHINE:X64 freetype.dir\Debug\autofit.obj
+         freetype.dir\Debug\ftbase.obj
+         freetype.dir\Debug\ftbbox.obj
+         freetype.dir\Debug\ftbitmap.obj
+         freetype.dir\Debug\ftfstype.obj
+         freetype.dir\Debug\ftgasp.obj
+         freetype.dir\Debug\ftglyph.obj
+         freetype.dir\Debug\ftinit.obj
+         freetype.dir\Debug\ftmm.obj
+         freetype.dir\Debug\ftpfr.obj
+         freetype.dir\Debug\ftstroke.obj
+         freetype.dir\Debug\ftsynth.obj
+         freetype.dir\Debug\ftsystem.obj
+         freetype.dir\Debug\fttype1.obj
+         freetype.dir\Debug\ftwinfnt.obj
+         freetype.dir\Debug\bdf.obj
+         freetype.dir\Debug\ftbzip2.obj
+         freetype.dir\Debug\ftcache.obj
+         freetype.dir\Debug\cff.obj
+         freetype.dir\Debug\type1cid.obj
+         freetype.dir\Debug\ftgzip.obj
+         freetype.dir\Debug\ftlzw.obj
+         freetype.dir\Debug\pcf.obj
+         freetype.dir\Debug\pfr.obj
+         freetype.dir\Debug\psaux.obj
+         freetype.dir\Debug\pshinter.obj
+         freetype.dir\Debug\psmodule.obj
+         freetype.dir\Debug\raster.obj
+         freetype.dir\Debug\sfnt.obj
+         freetype.dir\Debug\smooth.obj
+         freetype.dir\Debug\truetype.obj
+         freetype.dir\Debug\type1.obj
+         freetype.dir\Debug\type42.obj
+         freetype.dir\Debug\winfnt.obj
+         freetype.vcxproj -> D:\ogre\Dependencies\build\src\freetype\Debug\freetype_d.lib
+     1>Done Building Project "D:\ogre\Dependencies\build\src\freetype\freetype.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.95

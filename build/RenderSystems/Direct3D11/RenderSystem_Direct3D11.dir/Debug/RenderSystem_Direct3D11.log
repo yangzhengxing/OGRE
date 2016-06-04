@@ -1,0 +1,127 @@
+﻿Build started 2016/3/24 20:48:30.
+     1>Project "D:\ogre\build\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\RenderSystems\Direct3D11\include /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D OGRED3DENGINEDLL_EXPORTS /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D RenderSystem_Direct3D11_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"RenderSystem_Direct3D11.dir\Debug\\" /Fd"RenderSystem_Direct3D11.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11DepthBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Device.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11DeviceResource.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Driver.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11DriverList.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11GpuProgramManager.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareBufferManager.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareIndexBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareOcclusionQuery.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareUniformBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareVertexBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgramFactory.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11StereoDriverAMD.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11StereoDriverBridge.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11StereoDriverNVIDIA.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11VideoMode.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreD3D11VideoModeList.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreMonitorInfo.cpp ..\..\..\RenderSystems\Direct3D11\src\OgreNsightChecker.cpp
+         OgreD3D11DepthBuffer.cpp
+         OgreD3D11Device.cpp
+         OgreD3D11DeviceResource.cpp
+         OgreD3D11Driver.cpp
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Device.cpp(131): warning C4267: '=' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11DepthBuffer.cpp)
+         OgreD3D11DriverList.cpp
+         OgreD3D11EngineDll.cpp
+         OgreD3D11GpuProgramManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11GpuProgramManager.cpp)
+         OgreD3D11HardwareBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp)
+         OgreD3D11HardwareBufferManager.cpp
+         OgreD3D11HardwareIndexBuffer.cpp
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp(262): warning C4267: '=' : conversion from 'size_t' to 'UINT', possible loss of data
+         OgreD3D11HardwareOcclusionQuery.cpp
+         OgreD3D11HardwarePixelBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareBufferManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwareOcclusionQuery.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp)
+         OgreD3D11HardwareUniformBuffer.cpp
+         OgreD3D11HardwareVertexBuffer.cpp
+         OgreD3D11HLSLProgram.cpp
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(71): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(81): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(224): warning C4267: 'initializing' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(225): warning C4267: 'initializing' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(382): warning C4267: 'initializing' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(383): warning C4267: 'initializing' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(474): warning C4267: 'argument' : conversion from 'size_t' to 'UINT', possible loss of data
+         OgreD3D11HLSLProgramFactory.cpp
+         OgreD3D11Mappings.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgramFactory.cpp)
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(780): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(781): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(782): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(783): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(784): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(785): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(786): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(787): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(788): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(789): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(910): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(948): warning C4267: 'initializing' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1250): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp(267): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+         OgreD3D11MultiRenderTarget.cpp
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1816): warning C4267: 'argument' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1955): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2014): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2117): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2122): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         OgreD3D11Plugin.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp)
+         OgreD3D11RenderSystem.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp)
+         OgreD3D11RenderToVertexBuffer.cpp
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(288): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(298): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp)
+         OgreD3D11RenderWindow.cpp
+         OgreD3D11StereoDriverAMD.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp)
+         OgreD3D11StereoDriverBridge.cpp
+         OgreD3D11StereoDriverNVIDIA.cpp
+         OgreD3D11Texture.cpp
+         OgreD3D11TextureManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp)
+         OgreD3D11VertexDeclaration.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp)
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(635): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(864): warning C4267: 'argument' : conversion from 'size_t' to 'UINT', possible loss of data
+         OgreD3D11VideoMode.cpp
+         OgreD3D11VideoModeList.cpp
+     1>..\..\..\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp(158): warning C4267: '=' : conversion from 'size_t' to 'UINT', possible loss of data
+         OgreMonitorInfo.cpp
+         OgreNsightChecker.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\RenderSystem_Direct3D11_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib d3d11.lib dxgi.lib dxguid.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/RenderSystem_Direct3D11_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/RenderSystem_Direct3D11_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL RenderSystem_Direct3D11.dir\Debug\OgreD3D11DepthBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11Device.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11DeviceResource.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11Driver.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11DriverList.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11EngineDll.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11GpuProgramManager.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwareBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwareBufferManager.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwareIndexBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwareOcclusionQuery.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwarePixelBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwareUniformBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HardwareVertexBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HLSLProgram.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11HLSLProgramFactory.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11Mappings.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11MultiRenderTarget.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11Plugin.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11RenderSystem.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11RenderToVertexBuffer.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11RenderWindow.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11StereoDriverAMD.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11StereoDriverBridge.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11StereoDriverNVIDIA.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11Texture.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11TextureManager.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11VertexDeclaration.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11VideoMode.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreD3D11VideoModeList.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreMonitorInfo.obj
+         RenderSystem_Direct3D11.dir\Debug\OgreNsightChecker.obj
+            Creating library D:/ogre/build/lib/Debug/RenderSystem_Direct3D11_d.lib and object D:/ogre/build/lib/Debug/RenderSystem_Direct3D11_d.exp
+         RenderSystem_Direct3D11.vcxproj -> D:\ogre\build\bin\Debug\RenderSystem_Direct3D11_d.dll
+     1>Done Building Project "D:\ogre\build\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:38.41

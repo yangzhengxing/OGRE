@@ -1,0 +1,66 @@
+﻿Build started 2016/3/24 20:53:33.
+     1>Project "D:\ogre\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\PlugIns\ParticleFX\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D OGRE_PARTICLEFXPLUGIN_EXPORTS /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D Plugin_ParticleFX_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"Plugin_ParticleFX.dir\Debug\\" /Fd"Plugin_ParticleFX.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\PlugIns\ParticleFX\src\OgreAreaEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreBoxEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreColourFaderAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreColourFaderAffector2.cpp ..\..\..\PlugIns\ParticleFX\src\OgreColourImageAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreColourInterpolatorAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreCylinderEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreDeflectorPlaneAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreDirectionRandomiserAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreEllipsoidEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreHollowEllipsoidEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreLinearForceAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreParticleFX.cpp ..\..\..\PlugIns\ParticleFX\src\OgreParticleFXPlugin.cpp ..\..\..\PlugIns\ParticleFX\src\OgrePointEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreRingEmitter.cpp ..\..\..\PlugIns\ParticleFX\src\OgreRotationAffector.cpp ..\..\..\PlugIns\ParticleFX\src\OgreScaleAffector.cpp
+         OgreAreaEmitter.cpp
+         OgreBoxEmitter.cpp
+         OgreColourFaderAffector.cpp
+         OgreColourFaderAffector2.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreAreaEmitter.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreBoxEmitter.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreColourFaderAffector.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreColourFaderAffector2.cpp)
+         OgreColourImageAffector.cpp
+         OgreColourInterpolatorAffector.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreColourImageAffector.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreColourInterpolatorAffector.cpp)
+         OgreCylinderEmitter.cpp
+         OgreDeflectorPlaneAffector.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreCylinderEmitter.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreDeflectorPlaneAffector.cpp)
+         OgreDirectionRandomiserAffector.cpp
+         OgreEllipsoidEmitter.cpp
+         OgreHollowEllipsoidEmitter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreEllipsoidEmitter.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreDirectionRandomiserAffector.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreHollowEllipsoidEmitter.cpp)
+         OgreLinearForceAffector.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreLinearForceAffector.cpp)
+         OgreParticleFX.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreParticleFX.cpp)
+         OgreParticleFXPlugin.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreParticleFXPlugin.cpp)
+         OgrePointEmitter.cpp
+         OgreRingEmitter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgrePointEmitter.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreRingEmitter.cpp)
+         OgreRotationAffector.cpp
+     1>D:\ogre\OgreMain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreRotationAffector.cpp)
+         OgreScaleAffector.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\ParticleFX\src\OgreScaleAffector.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\Plugin_ParticleFX_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/Plugin_ParticleFX_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/Plugin_ParticleFX_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL Plugin_ParticleFX.dir\Debug\OgreAreaEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreBoxEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreColourFaderAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreColourFaderAffector2.obj
+         Plugin_ParticleFX.dir\Debug\OgreColourImageAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreColourInterpolatorAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreCylinderEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreDeflectorPlaneAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreDirectionRandomiserAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreEllipsoidEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreHollowEllipsoidEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreLinearForceAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreParticleFX.obj
+         Plugin_ParticleFX.dir\Debug\OgreParticleFXPlugin.obj
+         Plugin_ParticleFX.dir\Debug\OgrePointEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreRingEmitter.obj
+         Plugin_ParticleFX.dir\Debug\OgreRotationAffector.obj
+         Plugin_ParticleFX.dir\Debug\OgreScaleAffector.obj
+            Creating library D:/ogre/build/lib/Debug/Plugin_ParticleFX_d.lib and object D:/ogre/build/lib/Debug/Plugin_ParticleFX_d.exp
+         Plugin_ParticleFX.vcxproj -> D:\ogre\build\bin\Debug\Plugin_ParticleFX_d.dll
+     1>Done Building Project "D:\ogre\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.08

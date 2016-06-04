@@ -1,0 +1,14 @@
+﻿Build started 2016/3/24 20:57:56.
+     1>Project "D:\ogre\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Components\MeshLodGenerator\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OgreMeshUpgrader.dir\Debug\\" /Fd"OgreMeshUpgrader.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Tools\MeshUpgrader\src\main.cpp
+         main.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreMeshUpgrader_d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\lib\Debug\OgreMeshLodGenerator_d.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreMeshUpgrader_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreMeshUpgrader_d.lib" /MACHINE:X64  /machine:x64 /debug OgreMeshUpgrader.dir\Debug\main.obj
+         OgreMeshUpgrader.vcxproj -> D:\ogre\build\bin\Debug\OgreMeshUpgrader_d.exe
+     1>Done Building Project "D:\ogre\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.63

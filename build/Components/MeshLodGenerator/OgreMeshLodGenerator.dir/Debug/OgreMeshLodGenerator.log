@@ -1,0 +1,87 @@
+﻿Build started 2016/3/24 20:49:19.
+     1>Project "D:\ogre\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Components\MeshLodGenerator\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_MESHLODGENERATOR_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D OgreMeshLodGenerator_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OgreMeshLodGenerator.dir\Debug\\" /Fd"OgreMeshLodGenerator.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Components\MeshLodGenerator\src\OgreLodBuffer.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCost.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostCurvature.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostOutside.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostProfiler.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostQuadric.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodCollapser.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodConfig.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodConfigSerializer.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodData.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodInputProviderBuffer.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedBuffer.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedMesh.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderMesh.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodOutsideMarker.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodWorkQueueInjector.cpp ..\..\..\Components\MeshLodGenerator\src\OgreLodWorkQueueWorker.cpp ..\..\..\Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp ..\..\..\Components\MeshLodGenerator\src\OgreSmallVector.cpp
+         OgreLodBuffer.cpp
+         OgreLodCollapseCost.cpp
+         OgreLodCollapseCostCurvature.cpp
+         OgreLodCollapseCostOutside.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostCurvature.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCost.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostOutside.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodBuffer.cpp)
+         OgreLodCollapseCostProfiler.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostProfiler.cpp)
+         OgreLodCollapseCostQuadric.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodCollapseCostQuadric.cpp)
+         OgreLodCollapser.cpp
+         OgreLodConfig.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodCollapser.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodConfig.cpp)
+         OgreLodConfigSerializer.cpp
+         OgreLodData.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodConfigSerializer.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodData.cpp)
+         OgreLodInputProvider.cpp
+         OgreLodInputProviderBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodInputProviderBuffer.cpp)
+         OgreLodInputProviderMesh.cpp
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodInputProviderBuffer.cpp(54): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodInputProviderBuffer.cpp(87): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp)
+         OgreLodOutputProviderBuffer.cpp
+         OgreLodOutputProviderCompressedBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp)
+         OgreLodOutputProviderCompressedMesh.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedBuffer.cpp)
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedBuffer.cpp(41): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedBuffer.cpp(62): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedMesh.cpp)
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp(50): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp(115): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+         OgreLodOutputProviderMesh.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodOutputProviderMesh.cpp)
+         OgreLodOutsideMarker.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodOutsideMarker.cpp)
+         OgreLodWorkQueueInjector.cpp
+         OgreLodWorkQueueWorker.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodWorkQueueWorker.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreLodWorkQueueInjector.cpp)
+         OgreMeshLodGenerator.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp)
+         OgreSmallVector.cpp
+     1>..\..\..\Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp(108): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp(120): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp(124): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreMeshLodGenerator_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreMeshLodGenerator_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreMeshLodGenerator_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OgreMeshLodGenerator.dir\Debug\OgreLodBuffer.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodCollapseCost.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodCollapseCostCurvature.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodCollapseCostOutside.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodCollapseCostProfiler.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodCollapseCostQuadric.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodCollapser.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodConfig.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodConfigSerializer.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodData.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodInputProvider.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodInputProviderBuffer.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodInputProviderMesh.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodOutputProviderBuffer.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodOutputProviderCompressedBuffer.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodOutputProviderCompressedMesh.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodOutputProviderMesh.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodOutsideMarker.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodWorkQueueInjector.obj
+         OgreMeshLodGenerator.dir\Debug\OgreLodWorkQueueWorker.obj
+         OgreMeshLodGenerator.dir\Debug\OgreMeshLodGenerator.obj
+         OgreMeshLodGenerator.dir\Debug\OgreSmallVector.obj
+            Creating library D:/ogre/build/lib/Debug/OgreMeshLodGenerator_d.lib and object D:/ogre/build/lib/Debug/OgreMeshLodGenerator_d.exp
+         OgreMeshLodGenerator.vcxproj -> D:\ogre\build\bin\Debug\OgreMeshLodGenerator_d.dll
+     1>Done Building Project "D:\ogre\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.18

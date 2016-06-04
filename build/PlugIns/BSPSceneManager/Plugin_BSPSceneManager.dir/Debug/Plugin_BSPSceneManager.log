@@ -1,0 +1,41 @@
+﻿Build started 2016/3/24 20:52:52.
+     1>Project "D:\ogre\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\PlugIns\BSPSceneManager\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D OGRE_BSPPLUGIN_EXPORTS /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D Plugin_BSPSceneManager_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"Plugin_BSPSceneManager.dir\Debug\\" /Fd"Plugin_BSPSceneManager.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreBspNode.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreBspResourceManager.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreQuake3Level.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp ..\..\..\PlugIns\BSPSceneManager\src\OgreQuake3ShaderManager.cpp
+         OgreBspLevel.cpp
+         OgreBspNode.cpp
+         OgreBspResourceManager.cpp
+         OgreBspSceneManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspNode.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspResourceManager.cpp)
+         OgreBspSceneManagerDll.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp)
+         OgreBspSceneManagerPlugin.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp)
+         OgreBspSceneNode.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp)
+         OgreQuake3Level.cpp
+         OgreQuake3Shader.cpp
+         OgreQuake3ShaderManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\BSPSceneManager\src\OgreQuake3ShaderManager.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\Plugin_BSPSceneManager_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/Plugin_BSPSceneManager_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/Plugin_BSPSceneManager_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL Plugin_BSPSceneManager.dir\Debug\OgreBspLevel.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreBspNode.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreBspResourceManager.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreBspSceneManager.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreBspSceneManagerDll.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreBspSceneManagerPlugin.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreBspSceneNode.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreQuake3Level.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreQuake3Shader.obj
+         Plugin_BSPSceneManager.dir\Debug\OgreQuake3ShaderManager.obj
+            Creating library D:/ogre/build/lib/Debug/Plugin_BSPSceneManager_d.lib and object D:/ogre/build/lib/Debug/Plugin_BSPSceneManager_d.exp
+         Plugin_BSPSceneManager.vcxproj -> D:\ogre\build\bin\Debug\Plugin_BSPSceneManager_d.dll
+     1>Done Building Project "D:\ogre\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.82

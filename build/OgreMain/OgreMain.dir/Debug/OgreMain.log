@@ -1,0 +1,568 @@
+﻿Build started 2016/3/24 20:45:07.
+     1>Project "D:\ogre\build\OgreMain\OgreMain.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\OgreMain\include\WIN32 /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_NONCLIENT_BUILD /D FREEIMAGE_LIB /D "CMAKE_INTDIR=\"Debug\"" /D OgreMain_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yc"OgreStableHeaders.h" /Fp"OgreMain.dir\Debug\OgreMain_d.pch" /Fo"OgreMain.dir\Debug\\" /Fd"OgreMain.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\OgreMain\src\OgrePrecompiledHeaders.cpp
+         OgrePrecompiledHeaders.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\OgreMain\include\WIN32 /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_NONCLIENT_BUILD /D FREEIMAGE_LIB /D "CMAKE_INTDIR=\"Debug\"" /D OgreMain_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"OgreStableHeaders.h" /Fp"OgreMain.dir\Debug\OgreMain_d.pch" /Fo"OgreMain.dir\Debug\\" /Fd"OgreMain.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\OgreMain\src\OgreAlignedAllocator.cpp ..\..\OgreMain\src\OgreAnimable.cpp ..\..\OgreMain\src\OgreAnimation.cpp ..\..\OgreMain\src\OgreAnimationState.cpp ..\..\OgreMain\src\OgreAnimationTrack.cpp ..\..\OgreMain\src\OgreArchive.cpp ..\..\OgreMain\src\OgreArchiveManager.cpp ..\..\OgreMain\src\OgreAtomicScalar.cpp ..\..\OgreMain\src\OgreAutoParamDataSource.cpp ..\..\OgreMain\src\OgreAxisAlignedBox.cpp ..\..\OgreMain\src\OgreBillboard.cpp ..\..\OgreMain\src\OgreBillboardChain.cpp ..\..\OgreMain\src\OgreBillboardParticleRenderer.cpp ..\..\OgreMain\src\OgreBillboardSet.cpp ..\..\OgreMain\src\OgreBone.cpp ..\..\OgreMain\src\OgreCamera.cpp ..\..\OgreMain\src\OgreCodec.cpp ..\..\OgreMain\src\OgreColourValue.cpp ..\..\OgreMain\src\OgreCommon.cpp ..\..\OgreMain\src\OgreCompositionPass.cpp ..\..\OgreMain\src\OgreCompositionTargetPass.cpp ..\..\OgreMain\src\OgreCompositionTechnique.cpp ..\..\OgreMain\src\OgreCompositor.cpp ..\..\OgreMain\src\OgreCompositorChain.cpp ..\..\OgreMain\src\OgreCompositorInstance.cpp ..\..\OgreMain\src\OgreCompositorManager.cpp ..\..\OgreMain\src\OgreConfigFile.cpp ..\..\OgreMain\src\OgreControllerManager.cpp ..\..\OgreMain\src\OgreConvexBody.cpp ..\..\OgreMain\src\OgreDataStream.cpp ..\..\OgreMain\src\OgreDefaultHardwareBufferManager.cpp ..\..\OgreMain\src\OgreDefaultSceneQueries.cpp ..\..\OgreMain\src\OgreDeflate.cpp ..\..\OgreMain\src\OgreDepthBuffer.cpp ..\..\OgreMain\src\OgreDistanceLodStrategy.cpp ..\..\OgreMain\src\OgreDualQuaternion.cpp ..\..\OgreMain\src\OgreDynLib.cpp ..\..\OgreMain\src\OgreDynLibManager.cpp ..\..\OgreMain\src\OgreEdgeListBuilder.cpp ..\..\OgreMain\src\OgreEntity.cpp ..\..\OgreMain\src\OgreException.cpp ..\..\OgreMain\src\OgreExternalTextureSource.cpp ..\..\OgreMain\src\OgreExternalTextureSourceManager.cpp ..\..\OgreMain\src\OgreFileSystem.cpp ..\..\OgreMain\src\OgreFrustum.cpp ..\..\OgreMain\src\OgreGpuProgram.cpp ..\..\OgreMain\src\OgreGpuProgramManager.cpp ..\..\OgreMain\src\OgreGpuProgramParams.cpp ..\..\OgreMain\src\OgreGpuProgramUsage.cpp ..\..\OgreMain\src\OgreHardwareBufferManager.cpp ..\..\OgreMain\src\OgreHardwareCounterBuffer.cpp ..\..\OgreMain\src\OgreHardwareIndexBuffer.cpp ..\..\OgreMain\src\OgreHardwareOcclusionQuery.cpp ..\..\OgreMain\src\OgreHardwarePixelBuffer.cpp ..\..\OgreMain\src\OgreHardwareUniformBuffer.cpp ..\..\OgreMain\src\OgreHardwareVertexBuffer.cpp ..\..\OgreMain\src\OgreHighLevelGpuProgram.cpp ..\..\OgreMain\src\OgreHighLevelGpuProgramManager.cpp ..\..\OgreMain\src\OgreImage.cpp ..\..\OgreMain\src\OgreInstanceBatch.cpp ..\..\OgreMain\src\OgreInstanceBatchHW.cpp ..\..\OgreMain\src\OgreInstanceBatchHW_VTF.cpp ..\..\OgreMain\src\OgreInstanceBatchShader.cpp ..\..\OgreMain\src\OgreInstanceBatchVTF.cpp ..\..\OgreMain\src\OgreInstancedEntity.cpp ..\..\OgreMain\src\OgreInstancedGeometry.cpp ..\..\OgreMain\src\OgreInstanceManager.cpp ..\..\OgreMain\src\OgreKeyFrame.cpp ..\..\OgreMain\src\OgreLight.cpp ..\..\OgreMain\src\OgreLodStrategy.cpp ..\..\OgreMain\src\OgreLodStrategyManager.cpp ..\..\OgreMain\src\OgreLog.cpp ..\..\OgreMain\src\OgreLogManager.cpp ..\..\OgreMain\src\OgreManualObject.cpp ..\..\OgreMain\src\OgreMaterial.cpp ..\..\OgreMain\src\OgreMaterialManager.cpp ..\..\OgreMain\src\OgreMaterialSerializer.cpp ..\..\OgreMain\src\OgreMath.cpp ..\..\OgreMain\src\OgreMatrix3.cpp ..\..\OgreMain\src\OgreMatrix4.cpp ..\..\OgreMain\src\OgreMemoryAllocatedObject.cpp ..\..\OgreMain\src\OgreMemoryNedAlloc.cpp ..\..\OgreMain\src\OgreMemoryNedPooling.cpp ..\..\OgreMain\src\OgreMemoryTracker.cpp ..\..\OgreMain\src\OgreMesh.cpp ..\..\OgreMain\src\OgreMeshManager.cpp ..\..\OgreMain\src\OgreMeshSerializer.cpp ..\..\OgreMain\src\OgreMeshSerializerImpl.cpp ..\..\OgreMain\src\OgreMovableObject.cpp ..\..\OgreMain\src\OgreMovablePlane.cpp ..\..\OgreMain\src\OgreNode.cpp ..\..\OgreMain\src\OgreNumerics.cpp ..\..\OgreMain\src\OgreOptimisedUtil.cpp ..\..\OgreMain\src\OgreOptimisedUtilGeneral.cpp ..\..\OgreMain\src\OgreOptimisedUtilSSE.cpp ..\..\OgreMain\src\OgreParticle.cpp ..\..\OgreMain\src\OgreParticleEmitter.cpp ..\..\OgreMain\src\OgreParticleEmitterCommands.cpp ..\..\OgreMain\src\OgreParticleIterator.cpp ..\..\OgreMain\src\OgreParticleSystem.cpp ..\..\OgreMain\src\OgreParticleSystemManager.cpp ..\..\OgreMain\src\OgrePass.cpp ..\..\OgreMain\src\OgrePatchMesh.cpp ..\..\OgreMain\src\OgrePatchSurface.cpp ..\..\OgreMain\src\OgrePixelCountLodStrategy.cpp ..\..\OgreMain\src\OgrePixelFormat.cpp ..\..\OgreMain\src\OgrePlane.cpp ..\..\OgreMain\src\OgrePlatformInformation.cpp ..\..\OgreMain\src\OgrePolygon.cpp ..\..\OgreMain\src\OgrePose.cpp ..\..\OgreMain\src\OgrePredefinedControllers.cpp ..\..\OgreMain\src\OgrePrefabFactory.cpp ..\..\OgreMain\src\OgreProfiler.cpp ..\..\OgreMain\src\OgreQuaternion.cpp ..\..\OgreMain\src\OgreRectangle2D.cpp ..\..\OgreMain\src\OgreRenderQueue.cpp ..\..\OgreMain\src\OgreRenderQueueInvocation.cpp ..\..\OgreMain\src\OgreRenderQueueSortingGrouping.cpp ..\..\OgreMain\src\OgreRenderSystem.cpp ..\..\OgreMain\src\OgreRenderSystemCapabilities.cpp ..\..\OgreMain\src\OgreRenderSystemCapabilitiesManager.cpp ..\..\OgreMain\src\OgreRenderSystemCapabilitiesSerializer.cpp ..\..\OgreMain\src\OgreRenderTarget.cpp ..\..\OgreMain\src\OgreRenderTexture.cpp ..\..\OgreMain\src\OgreRenderToVertexBuffer.cpp ..\..\OgreMain\src\OgreRenderWindow.cpp ..\..\OgreMain\src\OgreResource.cpp ..\..\OgreMain\src\OgreResourceBackgroundQueue.cpp ..\..\OgreMain\src\OgreResourceGroupManager.cpp ..\..\OgreMain\src\OgreResourceManager.cpp ..\..\OgreMain\src\OgreRibbonTrail.cpp ..\..\OgreMain\src\OgreRoot.cpp ..\..\OgreMain\src\OgreRotationSpline.cpp ..\..\OgreMain\src\OgreSceneManager.cpp ..\..\OgreMain\src\OgreSceneManagerEnumerator.cpp ..\..\OgreMain\src\OgreSceneNode.cpp ..\..\OgreMain\src\OgreSceneQuery.cpp ..\..\OgreMain\src\OgreScriptCompiler.cpp ..\..\OgreMain\src\OgreScriptLexer.cpp ..\..\OgreMain\src\OgreScriptParser.cpp ..\..\OgreMain\src\OgreScriptTranslator.cpp ..\..\OgreMain\src\OgreSerializer.cpp ..\..\OgreMain\src\OgreShadowCameraSetup.cpp ..\..\OgreMain\src\OgreShadowCameraSetupFocused.cpp ..\..\OgreMain\src\OgreShadowCameraSetupLiSPSM.cpp ..\..\OgreMain\src\OgreShadowCameraSetupPlaneOptimal.cpp ..\..\OgreMain\src\OgreShadowCameraSetupPSSM.cpp ..\..\OgreMain\src\OgreShadowCaster.cpp ..\..\OgreMain\src\OgreShadowTextureManager.cpp ..\..\OgreMain\src\OgreShadowVolumeExtrudeProgram.cpp ..\..\OgreMain\src\OgreSimpleRenderable.cpp ..\..\OgreMain\src\OgreSimpleSpline.cpp ..\..\OgreMain\src\OgreSkeleton.cpp ..\..\OgreMain\src\OgreSkeletonInstance.cpp ..\..\OgreMain\src\OgreSkeletonManager.cpp ..\..\OgreMain\src\OgreSkeletonSerializer.cpp ..\..\OgreMain\src\OgreStaticGeometry.cpp ..\..\OgreMain\src\OgreStreamSerialiser.cpp ..\..\OgreMain\src\OgreString.cpp ..\..\OgreMain\src\OgreStringConverter.cpp ..\..\OgreMain\src\OgreStringInterface.cpp ..\..\OgreMain\src\OgreSubEntity.cpp ..\..\OgreMain\src\OgreSubMesh.cpp ..\..\OgreMain\src\OgreTagPoint.cpp ..\..\OgreMain\src\OgreTangentSpaceCalc.cpp ..\..\OgreMain\src\OgreTechnique.cpp ..\..\OgreMain\src\OgreTexture.cpp ..\..\OgreMain\src\OgreTextureManager.cpp ..\..\OgreMain\src\OgreTextureUnitState.cpp ..\..\OgreMain\src\OgreUnifiedHighLevelGpuProgram.cpp ..\..\OgreMain\src\OgreUserObjectBindings.cpp ..\..\OgreMain\src\OgreUTFString.cpp ..\..\OgreMain\src\OgreVector2.cpp ..\..\OgreMain\src\OgreVector3.cpp ..\..\OgreMain\src\OgreVector4.cpp ..\..\OgreMain\src\OgreVertexIndexData.cpp ..\..\OgreMain\src\OgreViewport.cpp ..\..\OgreMain\src\OgreWindowEventUtilities.cpp ..\..\OgreMain\src\OgreWireBoundingBox.cpp ..\..\OgreMain\src\OgreWorkQueue.cpp ..\..\OgreMain\src\Hash\MurmurHash3.cpp ..\..\OgreMain\src\Threading\OgreBarrierWin.cpp ..\..\OgreMain\src\Threading\OgreThreadsWin.cpp ..\..\OgreMain\src\Threading\OgreLightweightMutexWin.cpp ..\..\OgreMain\src\OgreFreeImageCodec.cpp ..\..\OgreMain\src\OgreDDSCodec.cpp ..\..\OgreMain\src\OgrePVRTCCodec.cpp ..\..\OgreMain\src\OgreETCCodec.cpp ..\..\OgreMain\src\OgreZip.cpp ..\..\OgreMain\src\WIN32\OgreOptimisedUtilDirectXMath.cpp ..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp ..\..\OgreMain\src\WIN32\OgreErrorDialog.cpp ..\..\OgreMain\src\WIN32\OgreFileSystemLayer.cpp ..\..\OgreMain\src\WIN32\OgreTimer.cpp ..\..\OgreMain\src\Threading\OgreDefaultWorkQueueStandard.cpp
+         OgreAlignedAllocator.cpp
+         OgreAnimable.cpp
+         OgreAnimation.cpp
+         OgreAnimationState.cpp
+         OgreAnimationTrack.cpp
+         OgreArchive.cpp
+         OgreArchiveManager.cpp
+         OgreAtomicScalar.cpp
+         OgreAutoParamDataSource.cpp
+         OgreAxisAlignedBox.cpp
+         OgreBillboard.cpp
+         OgreBillboardChain.cpp
+         OgreBillboardParticleRenderer.cpp
+         OgreBillboardSet.cpp
+         OgreBone.cpp
+         OgreCamera.cpp
+         OgreCodec.cpp
+         OgreColourValue.cpp
+         OgreCommon.cpp
+         OgreCompositionPass.cpp
+         OgreCompositionTargetPass.cpp
+         OgreCompositionTechnique.cpp
+         OgreCompositor.cpp
+         OgreCompositorChain.cpp
+         OgreCompositorInstance.cpp
+         OgreCompositorManager.cpp
+         OgreConfigFile.cpp
+         OgreControllerManager.cpp
+         OgreConvexBody.cpp
+         OgreDataStream.cpp
+         OgreDefaultHardwareBufferManager.cpp
+         OgreDefaultSceneQueries.cpp
+         OgreDeflate.cpp
+     1>..\..\OgreMain\src\OgreDeflate.cpp(398): warning C4267: 'argument' : conversion from 'size_t' to 'long', possible loss of data
+         OgreDepthBuffer.cpp
+         OgreDistanceLodStrategy.cpp
+         OgreDualQuaternion.cpp
+         OgreDynLib.cpp
+         OgreDynLibManager.cpp
+         OgreEdgeListBuilder.cpp
+         OgreEntity.cpp
+         OgreException.cpp
+         OgreExternalTextureSource.cpp
+         OgreExternalTextureSourceManager.cpp
+         OgreFileSystem.cpp
+         OgreFrustum.cpp
+         OgreGpuProgram.cpp
+         OgreGpuProgramManager.cpp
+         OgreGpuProgramParams.cpp
+         OgreGpuProgramUsage.cpp
+         OgreHardwareBufferManager.cpp
+         OgreHardwareCounterBuffer.cpp
+         OgreHardwareIndexBuffer.cpp
+         OgreHardwareOcclusionQuery.cpp
+         OgreHardwarePixelBuffer.cpp
+         OgreHardwareUniformBuffer.cpp
+         OgreHardwareVertexBuffer.cpp
+         OgreHighLevelGpuProgram.cpp
+         OgreHighLevelGpuProgramManager.cpp
+     1>D:\Microsoft Visual Studio 12.0\VC\include\utility(157): warning C4267: 'initializing' : conversion from 'size_t' to 'const unsigned int', possible loss of data (..\..\OgreMain\src\OgreGpuProgramParams.cpp)
+                 D:\Microsoft Visual Studio 12.0\VC\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+                 with
+                 [
+                     _Other=std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>
+         ,            _Objty=std::pair<const unsigned int,Ogre::String>
+         ,            _Ty=std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+                 with
+                 [
+                     _Other=std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>
+         ,            _Objty=std::pair<const unsigned int,Ogre::String>
+         ,            _Ty=std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>>
+         ,            _Ty=std::pair<const unsigned int,Ogre::String>
+         ,            _Other=std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>
+         ,            _Objty=std::pair<const unsigned int,Ogre::String>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>>
+         ,            _Ty=std::pair<const unsigned int,Ogre::String>
+         ,            _Other=std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>
+         ,            _Objty=std::pair<const unsigned int,Ogre::String>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\list(835) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(_Ty *,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>
+         ,            _Ty=std::pair<const unsigned int,Ogre::String>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\list(835) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(_Ty *,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_List_node<std::pair<const unsigned int,Ogre::String>,void *>
+         ,            _Ty=std::pair<const unsigned int,Ogre::String>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\list(1062) : see reference to function template instantiation 'std::_List_node<std::pair<const _Kty,_Ty>,void *> *std::_List_buy<std::pair<const _Kty,_Ty>,_Alloc>::_Buynode<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+         ,            _Alloc=std::allocator<std::pair<const unsigned int,Ogre::String>>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\list(1062) : see reference to function template instantiation 'std::_List_node<std::pair<const _Kty,_Ty>,void *> *std::_List_buy<std::pair<const _Kty,_Ty>,_Alloc>::_Buynode<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+         ,            _Alloc=std::allocator<std::pair<const unsigned int,Ogre::String>>
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\list(1034) : see reference to function template instantiation 'void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Insert<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>,std::_Iterator_base0>,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\list(1034) : see reference to function template instantiation 'void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Insert<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>,std::_Iterator_base0>,std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xhash(378) : see reference to function template instantiation 'void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::emplace_front<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+                 ]
+                 D:\Microsoft Visual Studio 12.0\VC\include\xhash(378) : see reference to function template instantiation 'void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::emplace_front<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+                 ]
+                 ..\..\OgreMain\src\OgreGpuProgramParams.cpp(3208) : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(_Valty &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+         ,            _Hasher=std::hash<unsigned int>
+         ,            _Keyeq=std::equal_to<unsigned int>
+         ,            _Alloc=std::allocator<std::pair<const unsigned int,Ogre::String>>
+         ,            _Valty=std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+                 ]
+                 ..\..\OgreMain\src\OgreGpuProgramParams.cpp(3208) : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(_Valty &&)' being compiled
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=Ogre::String
+         ,            _Hasher=std::hash<unsigned int>
+         ,            _Keyeq=std::equal_to<unsigned int>
+         ,            _Alloc=std::allocator<std::pair<const unsigned int,Ogre::String>>
+         ,            _Valty=std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+                 ]
+         OgreImage.cpp
+         OgreInstanceBatch.cpp
+         OgreInstanceBatchHW.cpp
+         OgreInstanceBatchHW_VTF.cpp
+         OgreInstanceBatchShader.cpp
+     1>..\..\OgreMain\src\OgreInstanceBatchHW.cpp(188): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchHW.cpp(225): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(45): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(130): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(205): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(206): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(207): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(208): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(257): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(271): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(310): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(311): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(312): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchShader.cpp(313): warning C4267: '=' : conversion from 'size_t' to 'char', possible loss of data
+         OgreInstanceBatchVTF.cpp
+         OgreInstancedEntity.cpp
+     1>..\..\OgreMain\src\OgreInstanceBatchVTF.cpp(161): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchVTF.cpp(417): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceBatchVTF.cpp(614): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+         OgreInstancedGeometry.cpp
+         OgreInstanceManager.cpp
+         OgreKeyFrame.cpp
+         OgreLight.cpp
+     1>..\..\OgreMain\src\OgreInstanceManager.cpp(565): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceManager.cpp(579): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\OgreMain\src\OgreInstanceManager.cpp(598): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+         OgreLodStrategy.cpp
+         OgreLodStrategyManager.cpp
+         OgreLog.cpp
+         OgreLogManager.cpp
+         OgreManualObject.cpp
+         OgreMaterial.cpp
+         OgreMaterialManager.cpp
+         OgreMaterialSerializer.cpp
+         OgreMath.cpp
+     1>D:\ogre\OgreMain\include\asm_math.h(184): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data (..\..\OgreMain\src\OgreMath.cpp)
+     1>D:\ogre\OgreMain\include\asm_math.h(214): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data (..\..\OgreMain\src\OgreMath.cpp)
+         OgreMatrix3.cpp
+         OgreMatrix4.cpp
+         OgreMemoryAllocatedObject.cpp
+         OgreMemoryNedAlloc.cpp
+         OgreMemoryNedPooling.cpp
+         OgreMemoryTracker.cpp
+         OgreMesh.cpp
+         OgreMeshManager.cpp
+     1>..\..\OgreMain\src\OgreMesh.cpp(1287): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned short', possible loss of data
+         OgreMeshSerializer.cpp
+         OgreMeshSerializerImpl.cpp
+         OgreMovableObject.cpp
+         OgreMovablePlane.cpp
+         OgreNode.cpp
+         OgreNumerics.cpp
+         OgreOptimisedUtil.cpp
+         OgreOptimisedUtilGeneral.cpp
+         OgreOptimisedUtilSSE.cpp
+         OgreParticle.cpp
+         OgreParticleEmitter.cpp
+         OgreParticleEmitterCommands.cpp
+         OgreParticleIterator.cpp
+         OgreParticleSystem.cpp
+         OgreParticleSystemManager.cpp
+         OgrePass.cpp
+         OgrePatchMesh.cpp
+         OgrePatchSurface.cpp
+         OgrePixelCountLodStrategy.cpp
+         OgrePixelFormat.cpp
+     1>..\..\OgreMain\src\OgrePixelFormat.cpp(706): warning C4267: 'initializing' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+         OgrePlane.cpp
+         OgrePlatformInformation.cpp
+         OgrePolygon.cpp
+         OgrePose.cpp
+         OgrePredefinedControllers.cpp
+         OgrePrefabFactory.cpp
+         OgreProfiler.cpp
+         OgreQuaternion.cpp
+         OgreRectangle2D.cpp
+         OgreRenderQueue.cpp
+         OgreRenderQueueInvocation.cpp
+         OgreRenderQueueSortingGrouping.cpp
+         OgreRenderSystem.cpp
+         OgreRenderSystemCapabilities.cpp
+         OgreRenderSystemCapabilitiesManager.cpp
+         OgreRenderSystemCapabilitiesSerializer.cpp
+         OgreRenderTarget.cpp
+         OgreRenderTexture.cpp
+         OgreRenderToVertexBuffer.cpp
+         OgreRenderWindow.cpp
+         OgreResource.cpp
+         OgreResourceBackgroundQueue.cpp
+         OgreResourceGroupManager.cpp
+         OgreResourceManager.cpp
+         OgreRibbonTrail.cpp
+         OgreRoot.cpp
+         OgreRotationSpline.cpp
+         OgreSceneManager.cpp
+         OgreSceneManagerEnumerator.cpp
+         OgreSceneNode.cpp
+         OgreSceneQuery.cpp
+         OgreScriptCompiler.cpp
+         OgreScriptLexer.cpp
+         OgreScriptParser.cpp
+         OgreScriptTranslator.cpp
+         OgreSerializer.cpp
+         OgreShadowCameraSetup.cpp
+         OgreShadowCameraSetupFocused.cpp
+         OgreShadowCameraSetupLiSPSM.cpp
+         OgreShadowCameraSetupPlaneOptimal.cpp
+         OgreShadowCameraSetupPSSM.cpp
+         OgreShadowCaster.cpp
+         OgreShadowTextureManager.cpp
+         OgreShadowVolumeExtrudeProgram.cpp
+         OgreSimpleRenderable.cpp
+         OgreSimpleSpline.cpp
+         OgreSkeleton.cpp
+         OgreSkeletonInstance.cpp
+         OgreSkeletonManager.cpp
+         OgreSkeletonSerializer.cpp
+         OgreStaticGeometry.cpp
+         OgreStreamSerialiser.cpp
+         OgreString.cpp
+         OgreStringConverter.cpp
+         OgreStringInterface.cpp
+         OgreSubEntity.cpp
+         OgreSubMesh.cpp
+         OgreTagPoint.cpp
+         OgreTangentSpaceCalc.cpp
+         OgreTechnique.cpp
+         OgreTexture.cpp
+         OgreTextureManager.cpp
+     1>..\..\OgreMain\src\OgreTexture.cpp(77): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+     1>..\..\OgreMain\src\OgreTexture.cpp(464): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+         OgreTextureUnitState.cpp
+     1>..\..\OgreMain\src\OgreTextureManager.cpp(88): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+     1>..\..\OgreMain\src\OgreTextureManager.cpp(128): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+     1>..\..\OgreMain\src\OgreTextureManager.cpp(147): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+     1>..\..\OgreMain\src\OgreTextureManager.cpp(180): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+         OgreUnifiedHighLevelGpuProgram.cpp
+         OgreUserObjectBindings.cpp
+         OgreUTFString.cpp
+         OgreVector2.cpp
+         OgreVector3.cpp
+         OgreVector4.cpp
+         OgreVertexIndexData.cpp
+         OgreViewport.cpp
+         OgreWindowEventUtilities.cpp
+         OgreWireBoundingBox.cpp
+         OgreWorkQueue.cpp
+         MurmurHash3.cpp
+         OgreBarrierWin.cpp
+     1>..\..\OgreMain\src\Threading\OgreBarrierWin.cpp(53): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+     1>..\..\OgreMain\src\Threading\OgreBarrierWin.cpp(85): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+         OgreThreadsWin.cpp
+     1>..\..\OgreMain\src\Threading\OgreThreadsWin.cpp(71): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+         OgreLightweightMutexWin.cpp
+         OgreFreeImageCodec.cpp
+     1>D:\ogre\Dependencies\src\FreeImage\Source\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\OgreMain\src\OgreFreeImageCodec.cpp)
+         OgreDDSCodec.cpp
+     1>..\..\OgreMain\src\OgreDDSCodec.cpp(406): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+     1>..\..\OgreMain\src\OgreDDSCodec.cpp(408): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+         OgrePVRTCCodec.cpp
+         OgreETCCodec.cpp
+         OgreZip.cpp
+     1>..\..\OgreMain\src\OgreZip.cpp(555): warning C4267: 'return' : conversion from 'size_t' to 'zzip_ssize_t', possible loss of data
+     1>..\..\OgreMain\src\OgreZip.cpp(593): warning C4267: 'return' : conversion from 'size_t' to 'zzip_off_t', possible loss of data
+     1>..\..\OgreMain\src\OgreZip.cpp(606): warning C4267: 'return' : conversion from 'size_t' to 'zzip_off_t', possible loss of data
+         OgreOptimisedUtilDirectXMath.cpp
+         OgreConfigDialog.cpp
+         OgreErrorDialog.cpp
+         OgreFileSystemLayer.cpp
+         OgreTimer.cpp
+         OgreDefaultWorkQueueStandard.cpp
+     1>..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp(143): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp(150): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp(182): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp(218): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp(225): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\..\OgreMain\src\WIN32\OgreConfigDialog.cpp(307): warning C4244: '=' : conversion from 'INT_PTR' to 'int', possible loss of data
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_NONCLIENT_BUILD /D FREEIMAGE_LIB /D "CMAKE_INTDIR=\\\"Debug\\\"" /D OgreMain_EXPORTS /l"0x0409" /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\OgreMain\include\WIN32 /nologo /fo"OgreMain.dir\Debug\OgreWin32Resources.res" ..\..\OgreMain\src\WIN32\OgreWin32Resources.rc 
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreMain_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreMain_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreMain_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OgreMain.dir\Debug\OgreWin32Resources.res
+         OgreMain.dir\Debug\OgreAlignedAllocator.obj
+         OgreMain.dir\Debug\OgreAnimable.obj
+         OgreMain.dir\Debug\OgreAnimation.obj
+         OgreMain.dir\Debug\OgreAnimationState.obj
+         OgreMain.dir\Debug\OgreAnimationTrack.obj
+         OgreMain.dir\Debug\OgreArchive.obj
+         OgreMain.dir\Debug\OgreArchiveManager.obj
+         OgreMain.dir\Debug\OgreAtomicScalar.obj
+         OgreMain.dir\Debug\OgreAutoParamDataSource.obj
+         OgreMain.dir\Debug\OgreAxisAlignedBox.obj
+         OgreMain.dir\Debug\OgreBillboard.obj
+         OgreMain.dir\Debug\OgreBillboardChain.obj
+         OgreMain.dir\Debug\OgreBillboardParticleRenderer.obj
+         OgreMain.dir\Debug\OgreBillboardSet.obj
+         OgreMain.dir\Debug\OgreBone.obj
+         OgreMain.dir\Debug\OgreCamera.obj
+         OgreMain.dir\Debug\OgreCodec.obj
+         OgreMain.dir\Debug\OgreColourValue.obj
+         OgreMain.dir\Debug\OgreCommon.obj
+         OgreMain.dir\Debug\OgreCompositionPass.obj
+         OgreMain.dir\Debug\OgreCompositionTargetPass.obj
+         OgreMain.dir\Debug\OgreCompositionTechnique.obj
+         OgreMain.dir\Debug\OgreCompositor.obj
+         OgreMain.dir\Debug\OgreCompositorChain.obj
+         OgreMain.dir\Debug\OgreCompositorInstance.obj
+         OgreMain.dir\Debug\OgreCompositorManager.obj
+         OgreMain.dir\Debug\OgreConfigFile.obj
+         OgreMain.dir\Debug\OgreControllerManager.obj
+         OgreMain.dir\Debug\OgreConvexBody.obj
+         OgreMain.dir\Debug\OgreDataStream.obj
+         OgreMain.dir\Debug\OgreDefaultHardwareBufferManager.obj
+         OgreMain.dir\Debug\OgreDefaultSceneQueries.obj
+         OgreMain.dir\Debug\OgreDeflate.obj
+         OgreMain.dir\Debug\OgreDepthBuffer.obj
+         OgreMain.dir\Debug\OgreDistanceLodStrategy.obj
+         OgreMain.dir\Debug\OgreDualQuaternion.obj
+         OgreMain.dir\Debug\OgreDynLib.obj
+         OgreMain.dir\Debug\OgreDynLibManager.obj
+         OgreMain.dir\Debug\OgreEdgeListBuilder.obj
+         OgreMain.dir\Debug\OgreEntity.obj
+         OgreMain.dir\Debug\OgreException.obj
+         OgreMain.dir\Debug\OgreExternalTextureSource.obj
+         OgreMain.dir\Debug\OgreExternalTextureSourceManager.obj
+         OgreMain.dir\Debug\OgreFileSystem.obj
+         OgreMain.dir\Debug\OgreFrustum.obj
+         OgreMain.dir\Debug\OgreGpuProgram.obj
+         OgreMain.dir\Debug\OgreGpuProgramManager.obj
+         OgreMain.dir\Debug\OgreGpuProgramParams.obj
+         OgreMain.dir\Debug\OgreGpuProgramUsage.obj
+         OgreMain.dir\Debug\OgreHardwareBufferManager.obj
+         OgreMain.dir\Debug\OgreHardwareCounterBuffer.obj
+         OgreMain.dir\Debug\OgreHardwareIndexBuffer.obj
+         OgreMain.dir\Debug\OgreHardwareOcclusionQuery.obj
+         OgreMain.dir\Debug\OgreHardwarePixelBuffer.obj
+         OgreMain.dir\Debug\OgreHardwareUniformBuffer.obj
+         OgreMain.dir\Debug\OgreHardwareVertexBuffer.obj
+         OgreMain.dir\Debug\OgreHighLevelGpuProgram.obj
+         OgreMain.dir\Debug\OgreHighLevelGpuProgramManager.obj
+         OgreMain.dir\Debug\OgreImage.obj
+         OgreMain.dir\Debug\OgreInstanceBatch.obj
+         OgreMain.dir\Debug\OgreInstanceBatchHW.obj
+         OgreMain.dir\Debug\OgreInstanceBatchHW_VTF.obj
+         OgreMain.dir\Debug\OgreInstanceBatchShader.obj
+         OgreMain.dir\Debug\OgreInstanceBatchVTF.obj
+         OgreMain.dir\Debug\OgreInstancedEntity.obj
+         OgreMain.dir\Debug\OgreInstancedGeometry.obj
+         OgreMain.dir\Debug\OgreInstanceManager.obj
+         OgreMain.dir\Debug\OgreKeyFrame.obj
+         OgreMain.dir\Debug\OgreLight.obj
+         OgreMain.dir\Debug\OgreLodStrategy.obj
+         OgreMain.dir\Debug\OgreLodStrategyManager.obj
+         OgreMain.dir\Debug\OgreLog.obj
+         OgreMain.dir\Debug\OgreLogManager.obj
+         OgreMain.dir\Debug\OgreManualObject.obj
+         OgreMain.dir\Debug\OgreMaterial.obj
+         OgreMain.dir\Debug\OgreMaterialManager.obj
+         OgreMain.dir\Debug\OgreMaterialSerializer.obj
+         OgreMain.dir\Debug\OgreMath.obj
+         OgreMain.dir\Debug\OgreMatrix3.obj
+         OgreMain.dir\Debug\OgreMatrix4.obj
+         OgreMain.dir\Debug\OgreMemoryAllocatedObject.obj
+         OgreMain.dir\Debug\OgreMemoryNedAlloc.obj
+         OgreMain.dir\Debug\OgreMemoryNedPooling.obj
+         OgreMain.dir\Debug\OgreMemoryTracker.obj
+         OgreMain.dir\Debug\OgreMesh.obj
+         OgreMain.dir\Debug\OgreMeshManager.obj
+         OgreMain.dir\Debug\OgreMeshSerializer.obj
+         OgreMain.dir\Debug\OgreMeshSerializerImpl.obj
+         OgreMain.dir\Debug\OgreMovableObject.obj
+         OgreMain.dir\Debug\OgreMovablePlane.obj
+         OgreMain.dir\Debug\OgreNode.obj
+         OgreMain.dir\Debug\OgreNumerics.obj
+         OgreMain.dir\Debug\OgreOptimisedUtil.obj
+         OgreMain.dir\Debug\OgreOptimisedUtilGeneral.obj
+         OgreMain.dir\Debug\OgreOptimisedUtilSSE.obj
+         OgreMain.dir\Debug\OgreParticle.obj
+         OgreMain.dir\Debug\OgreParticleEmitter.obj
+         OgreMain.dir\Debug\OgreParticleEmitterCommands.obj
+         OgreMain.dir\Debug\OgreParticleIterator.obj
+         OgreMain.dir\Debug\OgreParticleSystem.obj
+         OgreMain.dir\Debug\OgreParticleSystemManager.obj
+         OgreMain.dir\Debug\OgrePass.obj
+         OgreMain.dir\Debug\OgrePatchMesh.obj
+         OgreMain.dir\Debug\OgrePatchSurface.obj
+         OgreMain.dir\Debug\OgrePixelCountLodStrategy.obj
+         OgreMain.dir\Debug\OgrePixelFormat.obj
+         OgreMain.dir\Debug\OgrePlane.obj
+         OgreMain.dir\Debug\OgrePlatformInformation.obj
+         OgreMain.dir\Debug\OgrePolygon.obj
+         OgreMain.dir\Debug\OgrePose.obj
+         OgreMain.dir\Debug\OgrePrecompiledHeaders.obj
+         OgreMain.dir\Debug\OgrePredefinedControllers.obj
+         OgreMain.dir\Debug\OgrePrefabFactory.obj
+         OgreMain.dir\Debug\OgreProfiler.obj
+         OgreMain.dir\Debug\OgreQuaternion.obj
+         OgreMain.dir\Debug\OgreRectangle2D.obj
+         OgreMain.dir\Debug\OgreRenderQueue.obj
+         OgreMain.dir\Debug\OgreRenderQueueInvocation.obj
+         OgreMain.dir\Debug\OgreRenderQueueSortingGrouping.obj
+         OgreMain.dir\Debug\OgreRenderSystem.obj
+         OgreMain.dir\Debug\OgreRenderSystemCapabilities.obj
+         OgreMain.dir\Debug\OgreRenderSystemCapabilitiesManager.obj
+         OgreMain.dir\Debug\OgreRenderSystemCapabilitiesSerializer.obj
+         OgreMain.dir\Debug\OgreRenderTarget.obj
+         OgreMain.dir\Debug\OgreRenderTexture.obj
+         OgreMain.dir\Debug\OgreRenderToVertexBuffer.obj
+         OgreMain.dir\Debug\OgreRenderWindow.obj
+         OgreMain.dir\Debug\OgreResource.obj
+         OgreMain.dir\Debug\OgreResourceBackgroundQueue.obj
+         OgreMain.dir\Debug\OgreResourceGroupManager.obj
+         OgreMain.dir\Debug\OgreResourceManager.obj
+         OgreMain.dir\Debug\OgreRibbonTrail.obj
+         OgreMain.dir\Debug\OgreRoot.obj
+         OgreMain.dir\Debug\OgreRotationSpline.obj
+         OgreMain.dir\Debug\OgreSceneManager.obj
+         OgreMain.dir\Debug\OgreSceneManagerEnumerator.obj
+         OgreMain.dir\Debug\OgreSceneNode.obj
+         OgreMain.dir\Debug\OgreSceneQuery.obj
+         OgreMain.dir\Debug\OgreScriptCompiler.obj
+         OgreMain.dir\Debug\OgreScriptLexer.obj
+         OgreMain.dir\Debug\OgreScriptParser.obj
+         OgreMain.dir\Debug\OgreScriptTranslator.obj
+         OgreMain.dir\Debug\OgreSerializer.obj
+         OgreMain.dir\Debug\OgreShadowCameraSetup.obj
+         OgreMain.dir\Debug\OgreShadowCameraSetupFocused.obj
+         OgreMain.dir\Debug\OgreShadowCameraSetupLiSPSM.obj
+         OgreMain.dir\Debug\OgreShadowCameraSetupPlaneOptimal.obj
+         OgreMain.dir\Debug\OgreShadowCameraSetupPSSM.obj
+         OgreMain.dir\Debug\OgreShadowCaster.obj
+         OgreMain.dir\Debug\OgreShadowTextureManager.obj
+         OgreMain.dir\Debug\OgreShadowVolumeExtrudeProgram.obj
+         OgreMain.dir\Debug\OgreSimpleRenderable.obj
+         OgreMain.dir\Debug\OgreSimpleSpline.obj
+         OgreMain.dir\Debug\OgreSkeleton.obj
+         OgreMain.dir\Debug\OgreSkeletonInstance.obj
+         OgreMain.dir\Debug\OgreSkeletonManager.obj
+         OgreMain.dir\Debug\OgreSkeletonSerializer.obj
+         OgreMain.dir\Debug\OgreStaticGeometry.obj
+         OgreMain.dir\Debug\OgreStreamSerialiser.obj
+         OgreMain.dir\Debug\OgreString.obj
+         OgreMain.dir\Debug\OgreStringConverter.obj
+         OgreMain.dir\Debug\OgreStringInterface.obj
+         OgreMain.dir\Debug\OgreSubEntity.obj
+         OgreMain.dir\Debug\OgreSubMesh.obj
+         OgreMain.dir\Debug\OgreTagPoint.obj
+         OgreMain.dir\Debug\OgreTangentSpaceCalc.obj
+         OgreMain.dir\Debug\OgreTechnique.obj
+         OgreMain.dir\Debug\OgreTexture.obj
+         OgreMain.dir\Debug\OgreTextureManager.obj
+         OgreMain.dir\Debug\OgreTextureUnitState.obj
+         OgreMain.dir\Debug\OgreUnifiedHighLevelGpuProgram.obj
+         OgreMain.dir\Debug\OgreUserObjectBindings.obj
+         OgreMain.dir\Debug\OgreUTFString.obj
+         OgreMain.dir\Debug\OgreVector2.obj
+         OgreMain.dir\Debug\OgreVector3.obj
+         OgreMain.dir\Debug\OgreVector4.obj
+         OgreMain.dir\Debug\OgreVertexIndexData.obj
+         OgreMain.dir\Debug\OgreViewport.obj
+         OgreMain.dir\Debug\OgreWindowEventUtilities.obj
+         OgreMain.dir\Debug\OgreWireBoundingBox.obj
+         OgreMain.dir\Debug\OgreWorkQueue.obj
+         OgreMain.dir\Debug\MurmurHash3.obj
+         OgreMain.dir\Debug\OgreBarrierWin.obj
+         OgreMain.dir\Debug\OgreThreadsWin.obj
+         OgreMain.dir\Debug\OgreLightweightMutexWin.obj
+         OgreMain.dir\Debug\OgreFreeImageCodec.obj
+         OgreMain.dir\Debug\OgreDDSCodec.obj
+         OgreMain.dir\Debug\OgrePVRTCCodec.obj
+         OgreMain.dir\Debug\OgreETCCodec.obj
+         OgreMain.dir\Debug\OgreZip.obj
+         OgreMain.dir\Debug\OgreOptimisedUtilDirectXMath.obj
+         OgreMain.dir\Debug\OgreConfigDialog.obj
+         OgreMain.dir\Debug\OgreErrorDialog.obj
+         OgreMain.dir\Debug\OgreFileSystemLayer.obj
+         OgreMain.dir\Debug\OgreTimer.obj
+         OgreMain.dir\Debug\OgreDefaultWorkQueueStandard.obj
+            Creating library D:/ogre/build/lib/Debug/OgreMain_d.lib and object D:/ogre/build/lib/Debug/OgreMain_d.exp
+         OgreMain.vcxproj -> D:\ogre\build\bin\Debug\OgreMain_d.dll
+     1>Done Building Project "D:\ogre\build\OgreMain\OgreMain.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:23.52

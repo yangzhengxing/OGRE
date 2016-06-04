@@ -1,0 +1,63 @@
+﻿Build started 2016/3/24 20:48:30.
+     1>Project "D:\ogre\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\PlugIns\PCZSceneManager\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D OGRE_PCZPLUGIN_EXPORTS /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D Plugin_PCZSceneManager_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"Plugin_PCZSceneManager.dir\Debug\\" /Fd"Plugin_PCZSceneManager.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\PlugIns\PCZSceneManager\src\OgreAntiPortal.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgreCapsule.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCPlane.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZFrustum.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZone.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZoneFactory.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePortal.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp ..\..\..\PlugIns\PCZSceneManager\src\OgreSegment.cpp
+         OgreAntiPortal.cpp
+         OgreCapsule.cpp
+         OgreDefaultZone.cpp
+         OgrePCPlane.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgreCapsule.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgreAntiPortal.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCPlane.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp)
+         OgrePCZCamera.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp)
+         OgrePCZFrustum.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZFrustum.cpp)
+         OgrePCZLight.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp)
+         OgrePCZone.cpp
+         OgrePCZoneFactory.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZoneFactory.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZone.cpp)
+         OgrePCZPlugin.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp)
+         OgrePCZSceneManager.cpp
+         OgrePCZSceneManagerDll.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp)
+         OgrePCZSceneNode.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp)
+         OgrePCZSceneQuery.cpp
+         OgrePortal.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePortal.cpp)
+         OgrePortalBase.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp)
+         OgreSegment.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\PlugIns\PCZSceneManager\src\OgreSegment.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\Plugin_PCZSceneManager_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/Plugin_PCZSceneManager_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/Plugin_PCZSceneManager_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL Plugin_PCZSceneManager.dir\Debug\OgreAntiPortal.obj
+         Plugin_PCZSceneManager.dir\Debug\OgreCapsule.obj
+         Plugin_PCZSceneManager.dir\Debug\OgreDefaultZone.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCPlane.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZCamera.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZFrustum.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZLight.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZone.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZoneFactory.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZPlugin.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZSceneManager.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZSceneManagerDll.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZSceneNode.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePCZSceneQuery.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePortal.obj
+         Plugin_PCZSceneManager.dir\Debug\OgrePortalBase.obj
+         Plugin_PCZSceneManager.dir\Debug\OgreSegment.obj
+            Creating library D:/ogre/build/lib/Debug/Plugin_PCZSceneManager_d.lib and object D:/ogre/build/lib/Debug/Plugin_PCZSceneManager_d.exp
+         Plugin_PCZSceneManager.vcxproj -> D:\ogre\build\bin\Debug\Plugin_PCZSceneManager_d.dll
+     1>Done Building Project "D:\ogre\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:35.16

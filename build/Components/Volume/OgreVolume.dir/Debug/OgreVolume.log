@@ -1,0 +1,57 @@
+﻿Build started 2016/3/24 20:52:50.
+     1>Project "D:\ogre\build\Components\Volume\OgreVolume.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Components\Volume\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_VOLUME_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D OgreVolume_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OgreVolume.dir\Debug\\" /Fd"OgreVolume.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Components\Volume\src\OgreVolumeCacheSource.cpp ..\..\..\Components\Volume\src\OgreVolumeChunk.cpp ..\..\..\Components\Volume\src\OgreVolumeChunkHandler.cpp ..\..\..\Components\Volume\src\OgreVolumeCSGSource.cpp ..\..\..\Components\Volume\src\OgreVolumeDualGridGenerator.cpp ..\..\..\Components\Volume\src\OgreVolumeGridSource.cpp ..\..\..\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp ..\..\..\Components\Volume\src\OgreVolumeIsoSurface.cpp ..\..\..\Components\Volume\src\OgreVolumeIsoSurfaceMC.cpp ..\..\..\Components\Volume\src\OgreVolumeMeshBuilder.cpp ..\..\..\Components\Volume\src\OgreVolumeOctreeNode.cpp ..\..\..\Components\Volume\src\OgreVolumeOctreeNodeSplitPolicy.cpp ..\..\..\Components\Volume\src\OgreVolumeSimplexNoise.cpp ..\..\..\Components\Volume\src\OgreVolumeSource.cpp ..\..\..\Components\Volume\src\OgreVolumeTextureSource.cpp
+         OgreVolumeCacheSource.cpp
+         OgreVolumeChunk.cpp
+         OgreVolumeChunkHandler.cpp
+         OgreVolumeCSGSource.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeCSGSource.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeCacheSource.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeChunk.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeChunkHandler.cpp)
+         OgreVolumeDualGridGenerator.cpp
+         OgreVolumeGridSource.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeDualGridGenerator.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeGridSource.cpp)
+         OgreVolumeHalfFloatGridSource.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp)
+         OgreVolumeIsoSurface.cpp
+         OgreVolumeIsoSurfaceMC.cpp
+         OgreVolumeMeshBuilder.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeIsoSurfaceMC.cpp)
+         OgreVolumeOctreeNode.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeMeshBuilder.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeOctreeNode.cpp)
+         OgreVolumeOctreeNodeSplitPolicy.cpp
+         OgreVolumeSimplexNoise.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeSimplexNoise.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeOctreeNodeSplitPolicy.cpp)
+         OgreVolumeSource.cpp
+         OgreVolumeTextureSource.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeSource.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Volume\src\OgreVolumeTextureSource.cpp)
+     1>..\..\..\Components\Volume\src\OgreVolumeTextureSource.cpp(75): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreVolume_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreVolume_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreVolume_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OgreVolume.dir\Debug\OgreVolumeCacheSource.obj
+         OgreVolume.dir\Debug\OgreVolumeChunk.obj
+         OgreVolume.dir\Debug\OgreVolumeChunkHandler.obj
+         OgreVolume.dir\Debug\OgreVolumeCSGSource.obj
+         OgreVolume.dir\Debug\OgreVolumeDualGridGenerator.obj
+         OgreVolume.dir\Debug\OgreVolumeGridSource.obj
+         OgreVolume.dir\Debug\OgreVolumeHalfFloatGridSource.obj
+         OgreVolume.dir\Debug\OgreVolumeIsoSurface.obj
+         OgreVolume.dir\Debug\OgreVolumeIsoSurfaceMC.obj
+         OgreVolume.dir\Debug\OgreVolumeMeshBuilder.obj
+         OgreVolume.dir\Debug\OgreVolumeOctreeNode.obj
+         OgreVolume.dir\Debug\OgreVolumeOctreeNodeSplitPolicy.obj
+         OgreVolume.dir\Debug\OgreVolumeSimplexNoise.obj
+         OgreVolume.dir\Debug\OgreVolumeSource.obj
+         OgreVolume.dir\Debug\OgreVolumeTextureSource.obj
+            Creating library D:/ogre/build/lib/Debug/OgreVolume_d.lib and object D:/ogre/build/lib/Debug/OgreVolume_d.exp
+         OgreVolume.vcxproj -> D:\ogre\build\bin\Debug\OgreVolume_d.dll
+     1>Done Building Project "D:\ogre\build\Components\Volume\OgreVolume.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:43.28

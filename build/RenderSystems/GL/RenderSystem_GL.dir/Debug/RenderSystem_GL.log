@@ -1,0 +1,272 @@
+﻿Build started 2016/3/24 20:50:07.
+     1>Project "D:\ogre\build\RenderSystems\GL\RenderSystem_GL.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\RenderSystems\GL\include /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\RenderSystems\GL\src\StateCacheManager /ID:\ogre\RenderSystems\GL\src\nvparse\winheaders /ID:\ogre\RenderSystems\GL\include\Win32 /ID:\ogre\RenderSystems\GL\src\Win32 /ID:\ogre\RenderSystems\GL\src\GLSL\include /ID:\ogre\RenderSystems\GL\src\atifs\include /ID:\ogre\RenderSystems\GL\src\nvparse /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D OGRE_GLPLUGIN_EXPORTS /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D RenderSystem_GL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"RenderSystem_GL.dir\Debug\\" /Fd"RenderSystem_GL.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLExtSupport.cpp ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLGpuProgram.cpp ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgram.cpp ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgramManager.cpp ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLPreprocessor.cpp ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLProgram.cpp ..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLProgramFactory.cpp ..\..\..\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp ..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp ..\..\..\RenderSystems\GL\src\atifs\src\ps_1_4.cpp ..\..\..\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp ..\..\..\RenderSystems\GL\src\nvparse\nvparse.cpp ..\..\..\RenderSystems\GL\src\nvparse\nvparse_errors.cpp ..\..\..\RenderSystems\GL\src\nvparse\ps1.0_program.cpp ..\..\..\RenderSystems\GL\src\nvparse\rc1.0_combiners.cpp ..\..\..\RenderSystems\GL\src\nvparse\rc1.0_final.cpp ..\..\..\RenderSystems\GL\src\nvparse\rc1.0_general.cpp ..\..\..\RenderSystems\GL\src\nvparse\ts1.0_inst.cpp ..\..\..\RenderSystems\GL\src\nvparse\ts1.0_inst_list.cpp ..\..\..\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp ..\..\..\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp ..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp ..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp ..\..\..\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp ..\..\..\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp ..\..\..\RenderSystems\GL\src\nvparse\_ps1.0_parser.cpp ..\..\..\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp ..\..\..\RenderSystems\GL\src\nvparse\_rc1.0_parser.cpp ..\..\..\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp ..\..\..\RenderSystems\GL\src\nvparse\_ts1.0_parser.cpp ..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp ..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_parser.cpp ..\..\..\RenderSystems\GL\src\Win32\OgreWin32Context.cpp ..\..\..\RenderSystems\GL\src\Win32\OgreWin32GLSupport.cpp ..\..\..\RenderSystems\GL\src\Win32\OgreWin32RenderTexture.cpp ..\..\..\RenderSystems\GL\src\Win32\OgreWin32Window.cpp ..\..\..\RenderSystems\GL\src\glew.cpp ..\..\..\RenderSystems\GL\src\OgreGLATIFSInit.cpp ..\..\..\RenderSystems\GL\src\OgreGLContext.cpp ..\..\..\RenderSystems\GL\src\OgreGLDefaultHardwareBufferManager.cpp ..\..\..\RenderSystems\GL\src\OgreGLDepthBuffer.cpp ..\..\..\RenderSystems\GL\src\OgreGLEngineDll.cpp ..\..\..\RenderSystems\GL\src\OgreGLFBOMultiRenderTarget.cpp ..\..\..\RenderSystems\GL\src\OgreGLFBORenderTexture.cpp ..\..\..\RenderSystems\GL\src\OgreGLFrameBufferObject.cpp ..\..\..\RenderSystems\GL\src\OgreGLGpuNvparseProgram.cpp ..\..\..\RenderSystems\GL\src\OgreGLGpuProgram.cpp ..\..\..\RenderSystems\GL\src\OgreGLGpuProgramManager.cpp ..\..\..\RenderSystems\GL\src\OgreGLHardwareBufferManager.cpp ..\..\..\RenderSystems\GL\src\OgreGLHardwareIndexBuffer.cpp ..\..\..\RenderSystems\GL\src\OgreGLHardwareOcclusionQuery.cpp ..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp ..\..\..\RenderSystems\GL\src\OgreGLHardwareVertexBuffer.cpp ..\..\..\RenderSystems\GL\src\OgreGLPBRenderTexture.cpp ..\..\..\RenderSystems\GL\src\OgreGLPixelFormat.cpp ..\..\..\RenderSystems\GL\src\OgreGLPlugin.cpp ..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp ..\..\..\RenderSystems\GL\src\OgreGLRenderTexture.cpp ..\..\..\RenderSystems\GL\src\OgreGLRenderToVertexBuffer.cpp ..\..\..\RenderSystems\GL\src\OgreGLStateCacheManager.cpp ..\..\..\RenderSystems\GL\src\OgreGLSupport.cpp ..\..\..\RenderSystems\GL\src\OgreGLTexture.cpp ..\..\..\RenderSystems\GL\src\OgreGLTextureManager.cpp ..\..\..\RenderSystems\GL\src\OgreGLUniformCache.cpp ..\..\..\RenderSystems\GL\src\StateCacheManager\OgreGLNullStateCacheManagerImp.cpp ..\..\..\RenderSystems\GL\src\StateCacheManager\OgreGLNullUniformCacheImp.cpp
+         OgreGLSLExtSupport.cpp
+         OgreGLSLGpuProgram.cpp
+         OgreGLSLLinkProgram.cpp
+         OgreGLSLLinkProgramManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLExtSupport.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgramManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLGpuProgram.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgram.cpp)
+         OgreGLSLPreprocessor.cpp
+         OgreGLSLProgram.cpp
+         OgreGLSLProgramFactory.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLProgram.cpp)
+         ATI_FS_GLGpuProgram.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\GLSL\src\OgreGLSLProgramFactory.cpp)
+         Compiler2Pass.cpp
+     1>..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(104): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(127): warning C4267: 'initializing' : conversion from 'size_t' to 'uint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(130): warning C4267: 'initializing' : conversion from 'size_t' to 'uint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(295): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(308): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(354): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp)
+         ps_1_4.cpp
+         avp1.0_impl.cpp
+         nvparse.cpp
+     1>..\..\..\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         nvparse_errors.cpp
+         ps1.0_program.cpp
+     1>..\..\..\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(83): warning C4267: 'argument' : conversion from 'size_t' to 'GLuint', possible loss of data
+         rc1.0_combiners.cpp
+     1>..\..\..\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(339): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(1019): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         rc1.0_final.cpp
+         rc1.0_general.cpp
+         ts1.0_inst.cpp
+         ts1.0_inst_list.cpp
+         vcp1.0_impl.cpp
+         vp1.0_impl.cpp
+         vs1.0_inst.cpp
+         vs1.0_inst_list.cpp
+         vsp1.0_impl.cpp
+     1>..\..\..\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp(82): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         _ps1.0_lexer.cpp
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(102): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(174): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp(72): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(496): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(508): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(523): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(535): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(565): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(573): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(585): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(593): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(601): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         _ps1.0_parser.cpp
+         _rc1.0_lexer.cpp
+     1>_ps1.0_lexer.cpp(1378): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
+         _rc1.0_parser.cpp
+     1>_ps1.0_parser.c(782): warning C4065: switch statement contains 'default' but no 'case' labels (..\..\..\RenderSystems\GL\src\nvparse\_ps1.0_parser.cpp)
+     1>_rc1.0_lexer.cpp(1977): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp)
+         _ts1.0_lexer.cpp
+     1>_rc1.0_parser.c(970): warning C4065: switch statement contains 'default' but no 'case' labels (..\..\..\RenderSystems\GL\src\nvparse\_rc1.0_parser.cpp)
+         _ts1.0_parser.cpp
+     1>_ts1.0_lexer.cpp(1725): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp)
+         _vs1.0_lexer.cpp
+         _vs1.0_parser.cpp
+         OgreWin32Context.cpp
+     1>_ts1.0_parser.c(958): warning C4065: switch statement contains 'default' but no 'case' labels (..\..\..\RenderSystems\GL\src\nvparse\_ts1.0_parser.cpp)
+     1>vs1.0_tokens.l(377): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(527): warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(547): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(612): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(943): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(1191): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(1320): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>_vs1.0_lexer.cpp(3304): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(1822): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(1926): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(1982): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(1986): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2030): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2045): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2061): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2074): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2107): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2283): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2298): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2442): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2477): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2607): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>vs1.0_tokens.l(2919): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+     1>_vs1.0_parser.c(839): warning C4065: switch statement contains 'default' but no 'case' labels (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_parser.cpp)
+     1>_vs1.0_parser.c(866): warning C4065: switch statement contains 'default' but no 'case' labels (..\..\..\RenderSystems\GL\src\nvparse\_vs1.0_parser.cpp)
+         OgreWin32GLSupport.cpp
+         OgreWin32RenderTexture.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\Win32\OgreWin32Context.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\Win32\OgreWin32RenderTexture.cpp)
+         OgreWin32Window.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\Win32\OgreWin32GLSupport.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\Win32\OgreWin32Window.cpp)
+     1>..\..\..\RenderSystems\GL\src\Win32\OgreWin32Window.cpp(878): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\Win32\OgreWin32RenderTexture.cpp(44): warning C4267: 'argument' : conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+         glew.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\glew.cpp)
+         OgreGLATIFSInit.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLATIFSInit.cpp)
+         OgreGLContext.cpp
+         OgreGLDefaultHardwareBufferManager.cpp
+         OgreGLDepthBuffer.cpp
+         OgreGLEngineDll.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLDepthBuffer.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLEngineDll.cpp)
+         OgreGLFBOMultiRenderTarget.cpp
+         OgreGLFBORenderTexture.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLFBOMultiRenderTarget.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLFBORenderTexture.cpp)
+     1>..\..\..\RenderSystems\GL\src\OgreGLFBORenderTexture.cpp(472): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         OgreGLFrameBufferObject.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLFrameBufferObject.cpp)
+         OgreGLGpuNvparseProgram.cpp
+         OgreGLGpuProgram.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLGpuNvparseProgram.cpp)
+         OgreGLGpuProgramManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLGpuProgram.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLGpuProgramManager.cpp)
+         OgreGLHardwareBufferManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLHardwareBufferManager.cpp)
+         OgreGLHardwareIndexBuffer.cpp
+         OgreGLHardwareOcclusionQuery.cpp
+         OgreGLHardwarePixelBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp)
+         OgreGLHardwareVertexBuffer.cpp
+         OgreGLPBRenderTexture.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLPBRenderTexture.cpp)
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(316): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(324): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(339): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(347): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(363): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(371): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(381): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(383): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(385): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(426): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(428): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(430): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(491): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(493): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(495): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+         OgreGLPixelFormat.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLPixelFormat.cpp)
+         OgreGLPlugin.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLPlugin.cpp)
+         OgreGLRenderSystem.cpp
+         OgreGLRenderTexture.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLRenderTexture.cpp)
+         OgreGLRenderToVertexBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLRenderToVertexBuffer.cpp)
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(661): warning C4244: 'argument' : conversion from 'GLint' to 'Ogre::Real', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(1333): warning C4267: 'initializing' : conversion from 'size_t' to 'GLenum', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(2080): warning C4267: 'argument' : conversion from 'size_t' to 'GLenum', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(2603): warning C4244: 'argument' : conversion from 'unsigned int' to 'GLfloat', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(2914): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(2918): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3000): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3004): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3023): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3027): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3288): warning C4267: '=' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3290): warning C4267: '=' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3292): warning C4267: '=' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3293): warning C4267: '=' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3294): warning C4267: '=' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3310): warning C4267: '=' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3724): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLRenderSystem.cpp(3762): warning C4267: 'argument' : conversion from 'size_t' to 'GLuint', possible loss of data
+         OgreGLStateCacheManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLStateCacheManager.cpp)
+         OgreGLSupport.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLSupport.cpp)
+         OgreGLTexture.cpp
+         OgreGLTextureManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLTexture.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLTextureManager.cpp)
+         OgreGLUniformCache.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\OgreGLUniformCache.cpp)
+     1>..\..\..\RenderSystems\GL\src\OgreGLTexture.cpp(129): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+     1>..\..\..\RenderSystems\GL\src\OgreGLTexture.cpp(436): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         OgreGLNullStateCacheManagerImp.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\StateCacheManager\OgreGLNullStateCacheManagerImp.cpp)
+         OgreGLNullUniformCacheImp.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\GL\src\StateCacheManager\OgreGLNullUniformCacheImp.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\RenderSystem_GL_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib glu32.lib opengl32.lib glu32.lib opengl32.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/RenderSystem_GL_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/RenderSystem_GL_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL RenderSystem_GL.dir\Debug\OgreGLSLExtSupport.obj
+         RenderSystem_GL.dir\Debug\OgreGLSLGpuProgram.obj
+         RenderSystem_GL.dir\Debug\OgreGLSLLinkProgram.obj
+         RenderSystem_GL.dir\Debug\OgreGLSLLinkProgramManager.obj
+         RenderSystem_GL.dir\Debug\OgreGLSLPreprocessor.obj
+         RenderSystem_GL.dir\Debug\OgreGLSLProgram.obj
+         RenderSystem_GL.dir\Debug\OgreGLSLProgramFactory.obj
+         RenderSystem_GL.dir\Debug\ATI_FS_GLGpuProgram.obj
+         RenderSystem_GL.dir\Debug\Compiler2Pass.obj
+         RenderSystem_GL.dir\Debug\ps_1_4.obj
+         RenderSystem_GL.dir\Debug\avp1.0_impl.obj
+         RenderSystem_GL.dir\Debug\nvparse.obj
+         RenderSystem_GL.dir\Debug\nvparse_errors.obj
+         RenderSystem_GL.dir\Debug\ps1.0_program.obj
+         RenderSystem_GL.dir\Debug\rc1.0_combiners.obj
+         RenderSystem_GL.dir\Debug\rc1.0_final.obj
+         RenderSystem_GL.dir\Debug\rc1.0_general.obj
+         RenderSystem_GL.dir\Debug\ts1.0_inst.obj
+         RenderSystem_GL.dir\Debug\ts1.0_inst_list.obj
+         RenderSystem_GL.dir\Debug\vcp1.0_impl.obj
+         RenderSystem_GL.dir\Debug\vp1.0_impl.obj
+         RenderSystem_GL.dir\Debug\vs1.0_inst.obj
+         RenderSystem_GL.dir\Debug\vs1.0_inst_list.obj
+         RenderSystem_GL.dir\Debug\vsp1.0_impl.obj
+         RenderSystem_GL.dir\Debug\_ps1.0_lexer.obj
+         RenderSystem_GL.dir\Debug\_ps1.0_parser.obj
+         RenderSystem_GL.dir\Debug\_rc1.0_lexer.obj
+         RenderSystem_GL.dir\Debug\_rc1.0_parser.obj
+         RenderSystem_GL.dir\Debug\_ts1.0_lexer.obj
+         RenderSystem_GL.dir\Debug\_ts1.0_parser.obj
+         RenderSystem_GL.dir\Debug\_vs1.0_lexer.obj
+         RenderSystem_GL.dir\Debug\_vs1.0_parser.obj
+         RenderSystem_GL.dir\Debug\OgreWin32Context.obj
+         RenderSystem_GL.dir\Debug\OgreWin32GLSupport.obj
+         RenderSystem_GL.dir\Debug\OgreWin32RenderTexture.obj
+         RenderSystem_GL.dir\Debug\OgreWin32Window.obj
+         RenderSystem_GL.dir\Debug\glew.obj
+         RenderSystem_GL.dir\Debug\OgreGLATIFSInit.obj
+         RenderSystem_GL.dir\Debug\OgreGLContext.obj
+         RenderSystem_GL.dir\Debug\OgreGLDefaultHardwareBufferManager.obj
+         RenderSystem_GL.dir\Debug\OgreGLDepthBuffer.obj
+         RenderSystem_GL.dir\Debug\OgreGLEngineDll.obj
+         RenderSystem_GL.dir\Debug\OgreGLFBOMultiRenderTarget.obj
+         RenderSystem_GL.dir\Debug\OgreGLFBORenderTexture.obj
+         RenderSystem_GL.dir\Debug\OgreGLFrameBufferObject.obj
+         RenderSystem_GL.dir\Debug\OgreGLGpuNvparseProgram.obj
+         RenderSystem_GL.dir\Debug\OgreGLGpuProgram.obj
+         RenderSystem_GL.dir\Debug\OgreGLGpuProgramManager.obj
+         RenderSystem_GL.dir\Debug\OgreGLHardwareBufferManager.obj
+         RenderSystem_GL.dir\Debug\OgreGLHardwareIndexBuffer.obj
+         RenderSystem_GL.dir\Debug\OgreGLHardwareOcclusionQuery.obj
+         RenderSystem_GL.dir\Debug\OgreGLHardwarePixelBuffer.obj
+         RenderSystem_GL.dir\Debug\OgreGLHardwareVertexBuffer.obj
+         RenderSystem_GL.dir\Debug\OgreGLPBRenderTexture.obj
+         RenderSystem_GL.dir\Debug\OgreGLPixelFormat.obj
+         RenderSystem_GL.dir\Debug\OgreGLPlugin.obj
+         RenderSystem_GL.dir\Debug\OgreGLRenderSystem.obj
+         RenderSystem_GL.dir\Debug\OgreGLRenderTexture.obj
+         RenderSystem_GL.dir\Debug\OgreGLRenderToVertexBuffer.obj
+         RenderSystem_GL.dir\Debug\OgreGLStateCacheManager.obj
+         RenderSystem_GL.dir\Debug\OgreGLSupport.obj
+         RenderSystem_GL.dir\Debug\OgreGLTexture.obj
+         RenderSystem_GL.dir\Debug\OgreGLTextureManager.obj
+         RenderSystem_GL.dir\Debug\OgreGLUniformCache.obj
+         RenderSystem_GL.dir\Debug\OgreGLNullStateCacheManagerImp.obj
+         RenderSystem_GL.dir\Debug\OgreGLNullUniformCacheImp.obj
+            Creating library D:/ogre/build/lib/Debug/RenderSystem_GL_d.lib and object D:/ogre/build/lib/Debug/RenderSystem_GL_d.exp
+         RenderSystem_GL.vcxproj -> D:\ogre\build\bin\Debug\RenderSystem_GL_d.dll
+     1>Done Building Project "D:\ogre\build\RenderSystems\GL\RenderSystem_GL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:14.65

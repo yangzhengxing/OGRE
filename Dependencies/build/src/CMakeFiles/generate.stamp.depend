@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/ogre/Dependencies/src/CMakeLists.txt
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/ExternalProject.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CheckTypeSize.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CheckIncludeFile.cmake

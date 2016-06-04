@@ -1,0 +1,54 @@
+﻿Build started 2016/3/24 20:44:14.
+     1>Project "D:\ogre\build\Dependencies\src\ois\OIS.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /ID:\ogre\Dependencies\src\ois\includes /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D _MT /D _USRDLL /D WINVER=0x0500 /D OIS_NONCLIENT_BUILD /D OIS_DYNAMIC_LIB /D "CMAKE_INTDIR=\"Debug\"" /D OIS_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OIS.dir\Debug\\" /Fd"OIS.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /Zm256 /bigobj ..\..\..\..\Dependencies\src\ois\src\OISEffect.cpp ..\..\..\..\Dependencies\src\ois\src\OISException.cpp ..\..\..\..\Dependencies\src\ois\src\OISForceFeedback.cpp ..\..\..\..\Dependencies\src\ois\src\OISInputManager.cpp ..\..\..\..\Dependencies\src\ois\src\OISJoyStick.cpp ..\..\..\..\Dependencies\src\ois\src\OISKeyboard.cpp ..\..\..\..\Dependencies\src\ois\src\OISObject.cpp ..\..\..\..\Dependencies\src\ois\src\extras\LIRC\OISLIRC.cpp ..\..\..\..\Dependencies\src\ois\src\extras\LIRC\OISLIRCFactoryCreator.cpp ..\..\..\..\Dependencies\src\ois\src\win32\Win32ForceFeedback.cpp ..\..\..\..\Dependencies\src\ois\src\win32\Win32InputManager.cpp ..\..\..\..\Dependencies\src\ois\src\win32\Win32JoyStick.cpp ..\..\..\..\Dependencies\src\ois\src\win32\Win32KeyBoard.cpp ..\..\..\..\Dependencies\src\ois\src\win32\Win32Mouse.cpp ..\..\..\..\Dependencies\src\ois\src\win32\extras\WiiMote\hiddevice.cpp ..\..\..\..\Dependencies\src\ois\src\win32\extras\WiiMote\OISWiiMote.cpp ..\..\..\..\Dependencies\src\ois\src\win32\extras\WiiMote\OISWiiMoteFactoryCreator.cpp ..\..\..\..\Dependencies\src\ois\src\win32\extras\WiiMote\OISWiiMoteForceFeedback.cpp ..\..\..\..\Dependencies\src\ois\src\win32\extras\WiiMote\OISWiiMoteRingBuffer.cpp ..\..\..\..\Dependencies\src\ois\src\win32\extras\WiiMote\wiimote.cpp
+         OISEffect.cpp
+         OISException.cpp
+         OISForceFeedback.cpp
+         OISInputManager.cpp
+         OISJoyStick.cpp
+         OISKeyboard.cpp
+         OISObject.cpp
+         OISLIRC.cpp
+         OISLIRCFactoryCreator.cpp
+         Win32ForceFeedback.cpp
+         Win32InputManager.cpp
+         Win32JoyStick.cpp
+     1>..\..\..\..\Dependencies\src\ois\src\win32\Win32JoyStick.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Win32KeyBoard.cpp
+     1>..\..\..\..\Dependencies\src\ois\src\win32\Win32KeyBoard.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Win32Mouse.cpp
+         hiddevice.cpp
+         OISWiiMote.cpp
+         OISWiiMoteFactoryCreator.cpp
+         OISWiiMoteForceFeedback.cpp
+         OISWiiMoteRingBuffer.cpp
+         wiimote.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OIS_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\dinput8.lib" "C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\dxguid.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OIS_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/Dependencies/src/ois/Debug/OIS_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OIS.dir\Debug\OISEffect.obj
+         OIS.dir\Debug\OISException.obj
+         OIS.dir\Debug\OISForceFeedback.obj
+         OIS.dir\Debug\OISInputManager.obj
+         OIS.dir\Debug\OISJoyStick.obj
+         OIS.dir\Debug\OISKeyboard.obj
+         OIS.dir\Debug\OISObject.obj
+         OIS.dir\Debug\OISLIRC.obj
+         OIS.dir\Debug\OISLIRCFactoryCreator.obj
+         OIS.dir\Debug\Win32ForceFeedback.obj
+         OIS.dir\Debug\Win32InputManager.obj
+         OIS.dir\Debug\Win32JoyStick.obj
+         OIS.dir\Debug\Win32KeyBoard.obj
+         OIS.dir\Debug\Win32Mouse.obj
+         OIS.dir\Debug\hiddevice.obj
+         OIS.dir\Debug\OISWiiMote.obj
+         OIS.dir\Debug\OISWiiMoteFactoryCreator.obj
+         OIS.dir\Debug\OISWiiMoteForceFeedback.obj
+         OIS.dir\Debug\OISWiiMoteRingBuffer.obj
+         OIS.dir\Debug\wiimote.obj
+            Creating library D:/ogre/build/Dependencies/src/ois/Debug/OIS_d.lib and object D:/ogre/build/Dependencies/src/ois/Debug/OIS_d.exp
+         OIS.vcxproj -> D:\ogre\build\bin\Debug\OIS_d.dll
+     1>Done Building Project "D:\ogre\build\Dependencies\src\ois\OIS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.51

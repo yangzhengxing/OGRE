@@ -1,0 +1,128 @@
+﻿Build started 2016/3/24 20:50:09.
+     1>Project "D:\ogre\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Components\RTShaderSystem\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D OgreRTShaderSystem_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OgreRTShaderSystem.dir\Debug\\" /Fd"OgreRTShaderSystem.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Components\RTShaderSystem\src\OgreShaderCGProgramProcessor.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderCGProgramWriter.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExDualQuaternionSkinning.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExHardwareSkinning.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExHardwareSkinningTechnique.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExIntegratedPSSM3.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExLayeredBlending.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExLinearSkinning.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExNormalMapLighting.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExPerPixelLighting.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderExTriplanarTexturing.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPAlphaTest.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPColour.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPFog.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPRenderStateBuilder.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPTexturing.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFFPTransform.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFunction.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderFunctionAtom.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderGenerator.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLESProgramProcessor.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLESProgramWriter.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLProgramProcessor.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLProgramWriter.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderHLSLProgramProcessor.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderHLSLProgramWriter.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderMaterialSerializerListener.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderParameter.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderProgram.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderProgramManager.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderProgramProcessor.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderProgramSet.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderProgramWriter.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderProgramWriterManager.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderRenderState.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderScriptTranslator.cpp ..\..\..\Components\RTShaderSystem\src\OgreShaderSubRenderState.cpp
+         OgreShaderCGProgramProcessor.cpp
+         OgreShaderCGProgramWriter.cpp
+         OgreShaderExDualQuaternionSkinning.cpp
+         OgreShaderExHardwareSkinning.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExHardwareSkinning.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExDualQuaternionSkinning.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderCGProgramWriter.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderCGProgramProcessor.cpp)
+         OgreShaderExHardwareSkinningTechnique.cpp
+         OgreShaderExIntegratedPSSM3.cpp
+     1>D:\Microsoft Visual Studio 12.0\VC\include\algorithm(4108): warning C4267: 'argument' : conversion from 'size_t' to 'const Ogre::ushort', possible loss of data (..\..\..\Components\RTShaderSystem\src\OgreShaderExHardwareSkinning.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExIntegratedPSSM3.cpp)
+         OgreShaderExLayeredBlending.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExLayeredBlending.cpp)
+         OgreShaderExLinearSkinning.cpp
+         OgreShaderExNormalMapLighting.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExLinearSkinning.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExNormalMapLighting.cpp)
+         OgreShaderExPerPixelLighting.cpp
+         OgreShaderExTextureAtlasSampler.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExPerPixelLighting.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp)
+         OgreShaderExTriplanarTexturing.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderExTriplanarTexturing.cpp)
+         OgreShaderFFPAlphaTest.cpp
+         OgreShaderFFPColour.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPAlphaTest.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPColour.cpp)
+         OgreShaderFFPFog.cpp
+         OgreShaderFFPLighting.cpp
+         OgreShaderFFPRenderStateBuilder.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPFog.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPRenderStateBuilder.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp)
+         OgreShaderFFPTexturing.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPTexturing.cpp)
+         OgreShaderFFPTransform.cpp
+         OgreShaderFunction.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFFPTransform.cpp)
+         OgreShaderFunctionAtom.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFunction.cpp)
+         OgreShaderGenerator.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderFunctionAtom.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderGenerator.cpp)
+         OgreShaderGLSLESProgramProcessor.cpp
+         OgreShaderGLSLESProgramWriter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLESProgramProcessor.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLESProgramWriter.cpp)
+         OgreShaderGLSLProgramProcessor.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLProgramProcessor.cpp)
+         OgreShaderGLSLProgramWriter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderGLSLProgramWriter.cpp)
+         OgreShaderHLSLProgramProcessor.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderHLSLProgramProcessor.cpp)
+         OgreShaderHLSLProgramWriter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderHLSLProgramWriter.cpp)
+         OgreShaderMaterialSerializerListener.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderMaterialSerializerListener.cpp)
+         OgreShaderParameter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderParameter.cpp)
+         OgreShaderProgram.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderProgram.cpp)
+         OgreShaderProgramManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderProgramManager.cpp)
+         OgreShaderProgramProcessor.cpp
+         OgreShaderProgramSet.cpp
+         OgreShaderProgramWriter.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderProgramProcessor.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderProgramSet.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderProgramWriter.cpp)
+         OgreShaderProgramWriterManager.cpp
+         OgreShaderRenderState.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderRenderState.cpp)
+         OgreShaderScriptTranslator.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderScriptTranslator.cpp)
+         OgreShaderSubRenderState.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\RTShaderSystem\src\OgreShaderSubRenderState.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreRTShaderSystem_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreRTShaderSystem_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreRTShaderSystem_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OgreRTShaderSystem.dir\Debug\OgreShaderCGProgramProcessor.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderCGProgramWriter.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExDualQuaternionSkinning.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExHardwareSkinning.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExHardwareSkinningTechnique.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExIntegratedPSSM3.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExLayeredBlending.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExLinearSkinning.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExNormalMapLighting.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExPerPixelLighting.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExTextureAtlasSampler.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderExTriplanarTexturing.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPAlphaTest.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPColour.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPFog.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPLighting.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPRenderStateBuilder.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPTexturing.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFFPTransform.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFunction.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderFunctionAtom.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderGenerator.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderGLSLESProgramProcessor.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderGLSLESProgramWriter.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderGLSLProgramProcessor.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderGLSLProgramWriter.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderHLSLProgramProcessor.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderHLSLProgramWriter.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderMaterialSerializerListener.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderParameter.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderProgram.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderProgramManager.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderProgramProcessor.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderProgramSet.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderProgramWriter.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderProgramWriterManager.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderRenderState.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderScriptTranslator.obj
+         OgreRTShaderSystem.dir\Debug\OgreShaderSubRenderState.obj
+            Creating library D:/ogre/build/lib/Debug/OgreRTShaderSystem_d.lib and object D:/ogre/build/lib/Debug/OgreRTShaderSystem_d.exp
+         OgreRTShaderSystem.vcxproj -> D:\ogre\build\bin\Debug\OgreRTShaderSystem_d.dll
+     1>Done Building Project "D:\ogre\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:42.20

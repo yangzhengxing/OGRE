@@ -1,0 +1,112 @@
+﻿Build started 2016/3/24 20:50:06.
+     1>Project "D:\ogre\build\RenderSystems\Direct3D9\RenderSystem_Direct3D9.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\RenderSystems\Direct3D9\include /I"d:\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D OGRED3DENGINEDLL_EXPORTS /D _MT /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D RenderSystem_Direct3D9_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"RenderSystem_Direct3D9.dir\Debug\\" /Fd"RenderSystem_Direct3D9.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9DepthBuffer.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Device.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9DeviceManager.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Driver.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9DriverList.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9EngineDll.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9GpuProgram.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9GpuProgramManager.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareBufferManager.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareIndexBuffer.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareOcclusionQuery.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwarePixelBuffer.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareVertexBuffer.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgramFactory.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Mappings.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9MultiRenderTarget.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Plugin.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderWindow.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Resource.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9ResourceManager.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9StereoDriverAMD.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9StereoDriverBridge.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9StereoDriverNVIDIA.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Texture.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9TextureManager.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9VertexDeclaration.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9VideoMode.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreD3D9VideoModeList.cpp ..\..\..\RenderSystems\Direct3D9\src\OgreDxErr.cpp
+         OgreD3D9DepthBuffer.cpp
+         OgreD3D9Device.cpp
+         OgreD3D9DeviceManager.cpp
+         OgreD3D9Driver.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9DepthBuffer.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Device.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9DeviceManager.cpp)
+         OgreD3D9DriverList.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9DriverList.cpp)
+         OgreD3D9EngineDll.cpp
+         OgreD3D9GpuProgram.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9EngineDll.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9GpuProgram.cpp)
+         OgreD3D9GpuProgramManager.cpp
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9GpuProgram.cpp(95): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9GpuProgram.cpp(186): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+         OgreD3D9HardwareBufferManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9GpuProgramManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareBufferManager.cpp)
+         OgreD3D9HardwareIndexBuffer.cpp
+         OgreD3D9HardwareOcclusionQuery.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareIndexBuffer.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareOcclusionQuery.cpp)
+         OgreD3D9HardwarePixelBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwarePixelBuffer.cpp)
+         OgreD3D9HardwareVertexBuffer.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HardwareVertexBuffer.cpp)
+         OgreD3D9HLSLProgram.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp)
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp(113): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp(328): warning C4267: 'argument' : conversion from 'size_t' to 'const Ogre::uint32', possible loss of data
+         OgreD3D9HLSLProgramFactory.cpp
+         OgreD3D9Mappings.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Mappings.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgramFactory.cpp)
+         OgreD3D9MultiRenderTarget.cpp
+         OgreD3D9Plugin.cpp
+         OgreD3D9RenderSystem.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Plugin.cpp)
+         OgreD3D9RenderWindow.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9MultiRenderTarget.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderWindow.cpp)
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(2155): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(2157): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(2171): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(2173): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(3476): warning C4267: 'argument' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(3485): warning C4267: 'argument' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(3532): warning C4267: 'argument' : conversion from 'size_t' to 'UINT', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(4413): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp(4430): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         OgreD3D9Resource.cpp
+         OgreD3D9ResourceManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Resource.cpp)
+         OgreD3D9StereoDriverAMD.cpp
+         OgreD3D9StereoDriverBridge.cpp
+         OgreD3D9StereoDriverNVIDIA.cpp
+         OgreD3D9Texture.cpp
+         OgreD3D9TextureManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9Texture.cpp)
+         OgreD3D9VertexDeclaration.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9TextureManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9VertexDeclaration.cpp)
+         OgreD3D9VideoMode.cpp
+         OgreD3D9VideoModeList.cpp
+     1>..\..\..\RenderSystems\Direct3D9\src\OgreD3D9VertexDeclaration.cpp(158): warning C4267: '=' : conversion from 'size_t' to 'WORD', possible loss of data
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\RenderSystems\Direct3D9\src\OgreD3D9VideoModeList.cpp)
+         OgreDxErr.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\RenderSystem_Direct3D9_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib "d:\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d9.lib" "d:\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib" "d:\Microsoft DirectX SDK (June 2010)\Lib\x64\dxguid.lib" ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/RenderSystem_Direct3D9_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/RenderSystem_Direct3D9_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL RenderSystem_Direct3D9.dir\Debug\OgreD3D9DepthBuffer.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9Device.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9DeviceManager.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9Driver.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9DriverList.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9EngineDll.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9GpuProgram.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9GpuProgramManager.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HardwareBufferManager.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HardwareIndexBuffer.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HardwareOcclusionQuery.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HardwarePixelBuffer.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HardwareVertexBuffer.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HLSLProgram.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9HLSLProgramFactory.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9Mappings.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9MultiRenderTarget.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9Plugin.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9RenderSystem.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9RenderWindow.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9Resource.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9ResourceManager.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9StereoDriverAMD.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9StereoDriverBridge.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9StereoDriverNVIDIA.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9Texture.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9TextureManager.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9VertexDeclaration.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9VideoMode.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreD3D9VideoModeList.obj
+         RenderSystem_Direct3D9.dir\Debug\OgreDxErr.obj
+            Creating library D:/ogre/build/lib/Debug/RenderSystem_Direct3D9_d.lib and object D:/ogre/build/lib/Debug/RenderSystem_Direct3D9_d.exp
+         RenderSystem_Direct3D9.vcxproj -> D:\ogre\build\bin\Debug\RenderSystem_Direct3D9_d.dll
+     1>Done Building Project "D:\ogre\build\RenderSystems\Direct3D9\RenderSystem_Direct3D9.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:43.55

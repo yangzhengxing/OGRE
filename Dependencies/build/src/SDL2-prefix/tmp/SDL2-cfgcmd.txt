@@ -1,0 +1,1 @@
+cmd='D:/luxrender/windows_deps/bin/CMake/bin/cmake.exe;-DCMAKE_INSTALL_PREFIX:PATH=D:/ogre/Dependencies/build/ogredeps;-GVisual Studio 12 Win64;D:/ogre/Dependencies/src/SDL2'

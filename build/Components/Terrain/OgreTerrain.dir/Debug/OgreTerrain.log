@@ -1,0 +1,63 @@
+﻿Build started 2016/3/24 20:51:13.
+     1>Project "D:\ogre\build\Components\Terrain\OgreTerrain.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Components\Terrain\..\Paging\include /ID:\ogre\Components\Terrain\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_TERRAIN_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D OgreTerrain_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OgreTerrain.dir\Debug\\" /Fd"OgreTerrain.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Components\Terrain\src\OgreTerrain.cpp ..\..\..\Components\Terrain\src\OgreTerrainAutoUpdateLod.cpp ..\..\..\Components\Terrain\src\OgreTerrainGroup.cpp ..\..\..\Components\Terrain\src\OgreTerrainLayerBlendMap.cpp ..\..\..\Components\Terrain\src\OgreTerrainLodManager.cpp ..\..\..\Components\Terrain\src\OgreTerrainMaterialGenerator.cpp ..\..\..\Components\Terrain\src\OgreTerrainMaterialGeneratorA.cpp ..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperCg.cpp ..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperGLSL.cpp ..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperGLSLES.cpp ..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperHLSL.cpp ..\..\..\Components\Terrain\src\OgreTerrainQuadTreeNode.cpp ..\..\..\Components\Terrain\src\OgreTerrainPaging.cpp ..\..\..\Components\Terrain\src\OgreTerrainPagedWorldSection.cpp
+         OgreTerrain.cpp
+         OgreTerrainAutoUpdateLod.cpp
+         OgreTerrainGroup.cpp
+         OgreTerrainLayerBlendMap.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainGroup.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrain.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainAutoUpdateLod.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainLayerBlendMap.cpp)
+     1>..\..\..\Components\Terrain\src\OgreTerrainLayerBlendMap.cpp(136): warning C4267: 'argument' : conversion from 'size_t' to 'const long', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrain.cpp(4406): warning C4267: 'initializing' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrain.cpp(4419): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrain.cpp(4426): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrain.cpp(4430): warning C4267: '+=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+         OgreTerrainLodManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainLodManager.cpp)
+         OgreTerrainMaterialGenerator.cpp
+         OgreTerrainMaterialGeneratorA.cpp
+         OgreTerrainMaterialShaderHelperCg.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainMaterialGenerator.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainMaterialGeneratorA.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperCg.cpp)
+         OgreTerrainMaterialShaderHelperGLSL.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperGLSL.cpp)
+         OgreTerrainMaterialShaderHelperGLSLES.cpp
+         OgreTerrainMaterialShaderHelperHLSL.cpp
+         OgreTerrainQuadTreeNode.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainQuadTreeNode.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperGLSLES.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainMaterialShaderHelperHLSL.cpp)
+     1>..\..\..\Components\Terrain\src\OgreTerrainQuadTreeNode.cpp(699): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrainQuadTreeNode.cpp(707): warning C4267: '=' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrainQuadTreeNode.cpp(1002): warning C4267: 'initializing' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+     1>..\..\..\Components\Terrain\src\OgreTerrainQuadTreeNode.cpp(1003): warning C4267: 'initializing' : conversion from 'size_t' to 'Ogre::uint16', possible loss of data
+         OgreTerrainPaging.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainPaging.cpp)
+         OgreTerrainPagedWorldSection.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Terrain\src\OgreTerrainPagedWorldSection.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreTerrain_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\lib\Debug\OgrePaging_d.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreTerrain_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreTerrain_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OgreTerrain.dir\Debug\OgreTerrain.obj
+         OgreTerrain.dir\Debug\OgreTerrainAutoUpdateLod.obj
+         OgreTerrain.dir\Debug\OgreTerrainGroup.obj
+         OgreTerrain.dir\Debug\OgreTerrainLayerBlendMap.obj
+         OgreTerrain.dir\Debug\OgreTerrainLodManager.obj
+         OgreTerrain.dir\Debug\OgreTerrainMaterialGenerator.obj
+         OgreTerrain.dir\Debug\OgreTerrainMaterialGeneratorA.obj
+         OgreTerrain.dir\Debug\OgreTerrainMaterialShaderHelperCg.obj
+         OgreTerrain.dir\Debug\OgreTerrainMaterialShaderHelperGLSL.obj
+         OgreTerrain.dir\Debug\OgreTerrainMaterialShaderHelperGLSLES.obj
+         OgreTerrain.dir\Debug\OgreTerrainMaterialShaderHelperHLSL.obj
+         OgreTerrain.dir\Debug\OgreTerrainQuadTreeNode.obj
+         OgreTerrain.dir\Debug\OgreTerrainPaging.obj
+         OgreTerrain.dir\Debug\OgreTerrainPagedWorldSection.obj
+            Creating library D:/ogre/build/lib/Debug/OgreTerrain_d.lib and object D:/ogre/build/lib/Debug/OgreTerrain_d.exp
+         OgreTerrain.vcxproj -> D:\ogre\build\bin\Debug\OgreTerrain_d.dll
+     1>Done Building Project "D:\ogre\build\Components\Terrain\OgreTerrain.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:37.91

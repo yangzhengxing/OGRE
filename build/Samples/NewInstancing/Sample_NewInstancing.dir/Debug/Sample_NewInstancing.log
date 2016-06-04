@@ -1,0 +1,16 @@
+﻿Build started 2016/3/24 20:55:53.
+     1>Project "D:\ogre\build\Samples\NewInstancing\Sample_NewInstancing.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Samples\Common\include /ID:\ogre\Components\RTShaderSystem\include /ID:\ogre\Components\Overlay\include /ID:\ogre\Components\HLMS\include /ID:\ogre\Samples\NewInstancing\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D INCLUDE_RTSHADER_SYSTEM /D "CMAKE_INTDIR=\"Debug\"" /D Sample_NewInstancing_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"Sample_NewInstancing.dir\Debug\\" /Fd"Sample_NewInstancing.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Samples\NewInstancing\src\NewInstancing.cpp
+         NewInstancing.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\ogre\samples\common\include\SdkTrays.h(2582): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\Sample_NewInstancing_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\lib\Debug\OgreRTShaderSystem_d.lib ..\..\lib\Debug\OgreOverlay_d.lib ..\..\Dependencies\src\ois\Debug\OIS_d.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib ..\..\Dependencies\src\freetype\Debug\freetype_d.lib "C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\dinput8.lib" "C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\dxguid.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/Sample_NewInstancing_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/Sample_NewInstancing_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL Sample_NewInstancing.dir\Debug\NewInstancing.obj
+            Creating library D:/ogre/build/lib/Debug/Sample_NewInstancing_d.lib and object D:/ogre/build/lib/Debug/Sample_NewInstancing_d.exp
+         Sample_NewInstancing.vcxproj -> D:\ogre\build\bin\Debug\Sample_NewInstancing_d.dll
+     1>Done Building Project "D:\ogre\build\Samples\NewInstancing\Sample_NewInstancing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.96

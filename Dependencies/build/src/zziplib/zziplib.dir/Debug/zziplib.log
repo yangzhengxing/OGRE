@@ -1,0 +1,107 @@
+﻿Build started 2016/3/24 20:31:40.
+     1>Project "D:\ogre\Dependencies\build\src\zziplib\zziplib.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/ogre/Dependencies/src/zziplib/CMakeLists.txt
+         CMake does not need to re-run because D:\ogre\Dependencies\build\src\zziplib\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D WINVER=0x0500 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zziplib.dir\Debug\\" /Fd"zziplib.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\..\src\zziplib\zzip\dir.c ..\..\..\src\zziplib\zzip\err.c ..\..\..\src\zziplib\zzip\fetch.c ..\..\..\src\zziplib\zzip\file.c ..\..\..\src\zziplib\zzip\fseeko.c ..\..\..\src\zziplib\zzip\info.c ..\..\..\src\zziplib\zzip\memdisk.c ..\..\..\src\zziplib\zzip\mmapped.c ..\..\..\src\zziplib\zzip\plugin.c ..\..\..\src\zziplib\zzip\stat.c ..\..\..\src\zziplib\zzip\write.c ..\..\..\src\zziplib\zzip\zip.c
+         dir.c
+     1>D:\ogre\Dependencies\src\zziplib\zzip/__dirent.h(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>D:\ogre\Dependencies\src\zziplib\zzip/__dirent.h(185): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>D:\ogre\Dependencies\src\zziplib\zzip/__dirent.h(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>D:\ogre\Dependencies\src\zziplib\zzip/__dirent.h(239): warning C4244: '=' : conversion from 'intptr_t' to 'long', possible loss of data
+     1>..\..\..\src\zziplib\zzip\dir.c(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>..\..\..\src\zziplib\zzip\dir.c(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>..\..\..\src\zziplib\zzip\dir.c(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>..\..\..\src\zziplib\zzip\dir.c(283): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+         err.c
+     1>..\..\..\src\zziplib\zzip\err.c(75): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>..\..\..\src\zziplib\zzip\err.c(80): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>..\..\..\src\zziplib\zzip\err.c(92): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+         fetch.c
+         file.c
+     1>..\..\..\src\zziplib\zzip\file.c(412): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\..\src\zziplib\zzip\file.c(452): warning C4267: 'return' : conversion from 'size_t' to 'zzip_ssize_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\file.c(808): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\zziplib\zzip\file.c(855): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+     1>..\..\..\src\zziplib\zzip\file.c(1023): warning C4267: '=' : conversion from 'size_t' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\file.c(1127): warning C4267: 'return' : conversion from 'size_t' to 'zzip_off_t', possible loss of data
+         fseeko.c
+     1>..\..\..\src\zziplib\zzip\fseeko.c(309): warning C4244: '=' : conversion from 'zzip_off64_t' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\fseeko.c(563): warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\..\src\zziplib\zzip\fseeko.c(567): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\..\src\zziplib\zzip\fseeko.c(624): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\..\src\zziplib\zzip\fseeko.c(636): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+         info.c
+         memdisk.c
+     1>..\..\..\src\zziplib\zzip\memdisk.c(221): warning C4244: '=' : conversion from 'uint64_t' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\memdisk.c(222): warning C4244: '=' : conversion from 'uint64_t' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\memdisk.c(223): warning C4244: '=' : conversion from 'uint64_t' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\memdisk.c(465): warning C4244: 'return' : conversion from 'time_t' to 'long', possible loss of data
+         mmapped.c
+     1>..\..\..\src\zziplib\zzip\mmapped.c(149): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\io.h(336) : see declaration of 'open'
+     1>..\..\..\src\zziplib\zzip\mmapped.c(159): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\io.h(337) : see declaration of 'read'
+     1>..\..\..\src\zziplib\zzip\mmapped.c(231): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>..\..\..\src\zziplib\zzip\mmapped.c(608): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+         plugin.c
+     1>..\..\..\src\zziplib\zzip\plugin.c(54): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\io.h(336) : see declaration of 'open'
+     1>..\..\..\src\zziplib\zzip\plugin.c(54): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\io.h(326) : see declaration of 'close'
+     1>..\..\..\src\zziplib\zzip\plugin.c(54): warning C4028: formal parameter 3 different from declaration
+         stat.c
+     1>..\..\..\src\zziplib\zzip\stat.c(101): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\zziplib\zzip\stat.c(102): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         write.c
+     1>..\..\..\src\zziplib\zzip\write.c(144): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>..\..\..\src\zziplib\zzip\write.c(151): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\zziplib\zzip\write.c(167): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\zziplib\zzip\write.c(174): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\zziplib\zzip\write.c(226): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>..\..\..\src\zziplib\zzip\write.c(269): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>..\..\..\src\zziplib\zzip\write.c(327): warning C4267: 'function' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\..\src\zziplib\zzip\write.c(327): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\io.h(342) : see declaration of 'write'
+         zip.c
+     1>..\..\..\src\zziplib\zzip\zip.c(327): warning C4244: '=' : conversion from '__int64' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\zip.c(460): warning C4244: 'function' : conversion from 'zzip_off64_t' to 'zzip_off_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\zip.c(504): warning C4244: '=' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>..\..\..\src\zziplib\zzip\zip.c(778): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         Generating Code...
+       Lib:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\ogre\Dependencies\build\src\zziplib\Debug\zziplib_d.lib" /NOLOGO /MACHINE:X64 zziplib.dir\Debug\dir.obj
+         zziplib.dir\Debug\err.obj
+         zziplib.dir\Debug\fetch.obj
+         zziplib.dir\Debug\file.obj
+         zziplib.dir\Debug\fseeko.obj
+         zziplib.dir\Debug\info.obj
+         zziplib.dir\Debug\memdisk.obj
+         zziplib.dir\Debug\mmapped.obj
+         zziplib.dir\Debug\plugin.obj
+         zziplib.dir\Debug\stat.obj
+         zziplib.dir\Debug\write.obj
+         zziplib.dir\Debug\zip.obj
+         zziplib.vcxproj -> D:\ogre\Dependencies\build\src\zziplib\Debug\zziplib_d.lib
+     1>Done Building Project "D:\ogre\Dependencies\build\src\zziplib\zziplib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72

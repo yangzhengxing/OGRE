@@ -1,0 +1,53 @@
+﻿Build started 2016/3/24 20:50:07.
+     1>Project "D:\ogre\build\Components\Overlay\OgreOverlay.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\ogre\OgreMain\include /ID:\ogre\build\include /ID:\ogre\Dependencies\src\zlib /ID:\ogre\Dependencies\src\zziplib /ID:\ogre\Dependencies\src\FreeImage\Source /ID:\ogre\Dependencies\src\freetype\include\freetype /ID:\ogre\Dependencies\src\freetype\include /ID:\ogre\Dependencies\src\ois\includes /ID:\ogre\Dependencies\src\ois /ID:\ogre\Dependencies\src\Cg\include /ID:\ogre\Dependencies\src\Cg /ID:\ogre /ID:\ogre\OgreMain\include\Threading /ID:\ogre\Components\Overlay\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG /D _MT /D _USRDLL /D OGRE_OVERLAY_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D OgreOverlay_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"OgreOverlay.dir\Debug\\" /Fd"OgreOverlay.dir\Debug\vc120.pdb" /Gd /TP /wd4786 /wd4503 /wd4251 /wd4275 /wd4290 /wd4661 /wd4996 /wd4127 /wd4100 /errorReport:prompt  /Zm256 /bigobj ..\..\..\Components\Overlay\src\OgreBorderPanelOverlayElement.cpp ..\..\..\Components\Overlay\src\OgreFont.cpp ..\..\..\Components\Overlay\src\OgreFontManager.cpp ..\..\..\Components\Overlay\src\OgreOverlay.cpp ..\..\..\Components\Overlay\src\OgreOverlayContainer.cpp ..\..\..\Components\Overlay\src\OgreOverlayElement.cpp ..\..\..\Components\Overlay\src\OgreOverlayElementCommands.cpp ..\..\..\Components\Overlay\src\OgreOverlayElementFactory.cpp ..\..\..\Components\Overlay\src\OgreOverlayManager.cpp ..\..\..\Components\Overlay\src\OgreOverlayProfileSessionListener.cpp ..\..\..\Components\Overlay\src\OgreOverlaySystem.cpp ..\..\..\Components\Overlay\src\OgrePanelOverlayElement.cpp ..\..\..\Components\Overlay\src\OgreTextAreaOverlayElement.cpp
+         OgreBorderPanelOverlayElement.cpp
+         OgreFont.cpp
+         OgreFontManager.cpp
+         OgreOverlay.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlay.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreBorderPanelOverlayElement.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreFontManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreFont.cpp)
+     1>..\..\..\Components\Overlay\src\OgreFont.cpp(379): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Components\Overlay\src\OgreFont.cpp(383): warning C4018: '<' : signed/unsigned mismatch
+         OgreOverlayContainer.cpp
+         OgreOverlayElement.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlayContainer.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlayElement.cpp)
+         OgreOverlayElementCommands.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlayElementCommands.cpp)
+         OgreOverlayElementFactory.cpp
+         OgreOverlayManager.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlayElementFactory.cpp)
+         OgreOverlayProfileSessionListener.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlayManager.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlayProfileSessionListener.cpp)
+         OgreOverlaySystem.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreOverlaySystem.cpp)
+         OgrePanelOverlayElement.cpp
+         OgreTextAreaOverlayElement.cpp
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgrePanelOverlayElement.cpp)
+     1>d:\ogre\ogremain\include\OgreMath.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\..\Components\Overlay\src\OgreTextAreaOverlayElement.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ogre\build\bin\Debug\OgreOverlay_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\OgreMain_d.lib ..\..\Dependencies\src\freetype\Debug\freetype_d.lib ..\..\Dependencies\src\FreeImage\Debug\FreeImage_d.lib ..\..\Dependencies\src\zziplib\Debug\zziplib_d.lib ..\..\Dependencies\src\zlib\Debug\zlib_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre/build/bin/Debug/OgreOverlay_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre/build/lib/Debug/OgreOverlay_d.lib" /MACHINE:X64  /machine:x64 /debug /DLL OgreOverlay.dir\Debug\OgreBorderPanelOverlayElement.obj
+         OgreOverlay.dir\Debug\OgreFont.obj
+         OgreOverlay.dir\Debug\OgreFontManager.obj
+         OgreOverlay.dir\Debug\OgreOverlay.obj
+         OgreOverlay.dir\Debug\OgreOverlayContainer.obj
+         OgreOverlay.dir\Debug\OgreOverlayElement.obj
+         OgreOverlay.dir\Debug\OgreOverlayElementCommands.obj
+         OgreOverlay.dir\Debug\OgreOverlayElementFactory.obj
+         OgreOverlay.dir\Debug\OgreOverlayManager.obj
+         OgreOverlay.dir\Debug\OgreOverlayProfileSessionListener.obj
+         OgreOverlay.dir\Debug\OgreOverlaySystem.obj
+         OgreOverlay.dir\Debug\OgrePanelOverlayElement.obj
+         OgreOverlay.dir\Debug\OgreTextAreaOverlayElement.obj
+            Creating library D:/ogre/build/lib/Debug/OgreOverlay_d.lib and object D:/ogre/build/lib/Debug/OgreOverlay_d.exp
+         OgreOverlay.vcxproj -> D:\ogre\build\bin\Debug\OgreOverlay_d.dll
+     1>Done Building Project "D:\ogre\build\Components\Overlay\OgreOverlay.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:06.04

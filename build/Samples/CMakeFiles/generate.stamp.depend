@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/ogre/Samples/CMakeLists.txt
+D:/ogre/CMake/Packages/FindWix.cmake
+D:/ogre/CMake/Utils/FindPkgMacros.cmake

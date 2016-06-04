@@ -1,0 +1,7 @@
+D:/ogre/Dependencies/build/src/zziplib/CMakeFiles/ALL_BUILD.dir
+D:/ogre/Dependencies/build/src/FreeImage/CMakeFiles/FreeImage.dir
+D:/ogre/Dependencies/build/src/ois/CMakeFiles/OIS.dir
+D:/ogre/Dependencies/build/CMakeFiles/ZERO_CHECK.dir
+D:/ogre/Dependencies/build/src/freetype/CMakeFiles/freetype.dir
+D:/ogre/Dependencies/build/src/zlib/CMakeFiles/zlib.dir
+D:/ogre/Dependencies/build/src/zziplib/CMakeFiles/zziplib.dir

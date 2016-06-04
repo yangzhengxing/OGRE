@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E8FCF43F-34EA-4EC5-B37E-CCF902AF5CD1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre\OgreMain\include;D:\ogre\build\include;D:\ogre\Dependencies\src\zlib;D:\ogre\Dependencies\src\zziplib;D:\ogre\Dependencies\src\FreeImage\Source;D:\ogre\Dependencies\src\freetype\include\freetype;D:\ogre\Dependencies\src\freetype\include;D:\ogre\Dependencies\src\ois\includes;D:\ogre\Dependencies\src\ois;D:\ogre\Dependencies\src\Cg\include;D:\ogre\Dependencies\src\Cg;D:\ogre;D:\ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre\OgreMain\include;D:\ogre\build\include;D:\ogre\Dependencies\src\zlib;D:\ogre\Dependencies\src\zziplib;D:\ogre\Dependencies\src\FreeImage\Source;D:\ogre\Dependencies\src\freetype\include\freetype;D:\ogre\Dependencies\src\freetype\include;D:\ogre\Dependencies\src\ois\includes;D:\ogre\Dependencies\src\ois;D:\ogre\Dependencies\src\Cg\include;D:\ogre\Dependencies\src\Cg;D:\ogre;D:\ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre\OgreMain\include;D:\ogre\build\include;D:\ogre\Dependencies\src\zlib;D:\ogre\Dependencies\src\zziplib;D:\ogre\Dependencies\src\FreeImage\Source;D:\ogre\Dependencies\src\freetype\include\freetype;D:\ogre\Dependencies\src\freetype\include;D:\ogre\Dependencies\src\ois\includes;D:\ogre\Dependencies\src\ois;D:\ogre\Dependencies\src\Cg\include;D:\ogre\Dependencies\src\Cg;D:\ogre;D:\ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre\OgreMain\include;D:\ogre\build\include;D:\ogre\Dependencies\src\zlib;D:\ogre\Dependencies\src\zziplib;D:\ogre\Dependencies\src\FreeImage\Source;D:\ogre\Dependencies\src\freetype\include\freetype;D:\ogre\Dependencies\src\freetype\include;D:\ogre\Dependencies\src\ois\includes;D:\ogre\Dependencies\src\ois;D:\ogre\Dependencies\src\Cg\include;D:\ogre\Dependencies\src\Cg;D:\ogre;D:\ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\1be15c1e4a3c593fad687894876c0e6b\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/ogre/build/CMakeFiles/1be15c1e4a3c593fad687894876c0e6b/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ogre\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/ogre/build/CMakeFiles/1be15c1e4a3c593fad687894876c0e6b/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ogre\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/ogre/build/CMakeFiles/1be15c1e4a3c593fad687894876c0e6b/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ogre\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/ogre/build/CMakeFiles/1be15c1e4a3c593fad687894876c0e6b/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ogre\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/ogre/build/Dependencies/src/FreeImage/FreeImage.vcxproj">
+      <Project>102C212C-BDE4-4CFD-886D-1B131FA606A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Dependencies/src/ois/OIS.vcxproj">
+      <Project>EF29F123-1B94-4C90-807C-926436E7C74A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/HLMS/OgreHLMS.vcxproj">
+      <Project>865DDEF7-A460-44E8-99EB-4B1433543711</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/OgreMain/OgreMain.vcxproj">
+      <Project>F14F02B1-1496-4166-9A6B-A279C6B80095</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/MeshLodGenerator/OgreMeshLodGenerator.vcxproj">
+      <Project>9F315BA8-24E8-4F59-80FB-AAA1B3BC4E83</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Tools/MeshUpgrader/OgreMeshUpgrader.vcxproj">
+      <Project>705024F8-0F76-41C5-90C6-0809ECC8BB05</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/Overlay/OgreOverlay.vcxproj">
+      <Project>74040DC2-1C61-4910-925A-72850D4C4A65</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/Paging/OgrePaging.vcxproj">
+      <Project>8D2A0249-A625-4E79-AC44-81CBAE5179A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/Property/OgreProperty.vcxproj">
+      <Project>B4AE48CB-CDC4-4553-A226-9107A2D201DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/RTShaderSystem/OgreRTShaderSystem.vcxproj">
+      <Project>87E59909-F297-4419-99A1-4AD97F512165</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/Terrain/OgreTerrain.vcxproj">
+      <Project>A28C13C1-B257-4976-8E3B-0B486F3C5363</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Components/Volume/OgreVolume.vcxproj">
+      <Project>E5EA2725-E7E4-4758-A5E0-0E7391086B9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Tools/XMLConverter/OgreXMLConverter.vcxproj">
+      <Project>3E6C8948-3A24-4A93-BC4C-BBC2358FCC66</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/PlugIns/BSPSceneManager/Plugin_BSPSceneManager.vcxproj">
+      <Project>4350A779-FA64-4058-B9E2-37E215739696</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/PlugIns/CgProgramManager/Plugin_CgProgramManager.vcxproj">
+      <Project>43A5FA08-8FA4-4601-9E04-15380AB51DB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/PlugIns/OctreeSceneManager/Plugin_OctreeSceneManager.vcxproj">
+      <Project>7553A50B-A461-4867-AACA-890D485F159B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/PlugIns/OctreeZone/Plugin_OctreeZone.vcxproj">
+      <Project>E39BB5B5-257F-4F7B-BEDE-F9C51043795F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/PlugIns/PCZSceneManager/Plugin_PCZSceneManager.vcxproj">
+      <Project>D41F5117-5E22-4D7C-AF7F-E9E715510D23</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/PlugIns/ParticleFX/Plugin_ParticleFX.vcxproj">
+      <Project>A51CDF7F-E1E3-4514-8284-CC390573B893</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/RenderSystems/Direct3D11/RenderSystem_Direct3D11.vcxproj">
+      <Project>1FAEBAAD-8BF7-496B-B8BB-BD2B039541D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/RenderSystems/Direct3D9/RenderSystem_Direct3D9.vcxproj">
+      <Project>A2D42D7F-F6F0-4534-A501-1BD706E1050C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/RenderSystems/GL/RenderSystem_GL.vcxproj">
+      <Project>EB24F3C9-35E8-4DB3-8419-6ED6EA783286</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Browser/SampleBrowser.vcxproj">
+      <Project>43051DF3-2514-4C38-A6DD-8431DEB50ABE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/AtomicCounters/Sample_AtomicCounters.vcxproj">
+      <Project>DA4B7BC4-1036-4593-8A4C-05173DC7DCA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/BSP/Sample_BSP.vcxproj">
+      <Project>065C691F-6760-440E-9FCB-EF6D840BE56A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/BezierPatch/Sample_BezierPatch.vcxproj">
+      <Project>CC624379-F682-4E2B-BAA6-60995C5E0C3F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/CameraTrack/Sample_CameraTrack.vcxproj">
+      <Project>C77BC416-06AF-441C-A95B-7FE27DFB3876</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/CelShading/Sample_CelShading.vcxproj">
+      <Project>DF9EE7DD-4F8F-46DD-A7AF-6AE5E913A966</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Character/Sample_Character.vcxproj">
+      <Project>6CFA6441-134F-421A-8F9C-EC5925D3B0B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Compositor/Sample_Compositor.vcxproj">
+      <Project>C055D034-209D-4518-BDB0-18A6E08B7E15</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Compute/Sample_Compute.vcxproj">
+      <Project>47D9FD20-C298-487E-9751-3FC429A92467</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/CubeMapping/Sample_CubeMapping.vcxproj">
+      <Project>B6171E8D-7FC0-4BB1-BA86-368A600DD97D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/DeferredShading/Sample_DeferredShading.vcxproj">
+      <Project>52C82A34-4840-461D-BB32-49DDA180CA71</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Dot3Bump/Sample_Dot3Bump.vcxproj">
+      <Project>EF9B8D19-130B-4E6D-A06B-8608812ED146</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/DualQuaternion/Sample_DualQuaternion.vcxproj">
+      <Project>BD9547D7-13A8-4A87-BC04-3BE084F639D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/DynTex/Sample_DynTex.vcxproj">
+      <Project>399A23D5-B8ED-42B2-A73E-44A1A2C3FC3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/EndlessWorld/Sample_EndlessWorld.vcxproj">
+      <Project>D3F41833-5B4E-4DF4-8A74-058DBF1023A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/FacialAnimation/Sample_FacialAnimation.vcxproj">
+      <Project>7D4BF854-BD9A-4BE6-8A9D-E57D8C555E64</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Fresnel/Sample_Fresnel.vcxproj">
+      <Project>097CBF2F-4BBB-43C8-8442-ADBBBF7140AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Grass/Sample_Grass.vcxproj">
+      <Project>9A4CD07C-2755-4843-B3B9-DD6A4CCAC787</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/HLMS/Sample_HLMS.vcxproj">
+      <Project>2222D60B-BC84-4EED-9810-9AC5ACF3082C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Hair/Sample_Hair.vcxproj">
+      <Project>53B30741-E255-4716-A2B7-86804CA71AD9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Instancing/Sample_Instancing.vcxproj">
+      <Project>580A8682-A087-417A-83DF-18462C8EFCD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Island/Sample_Island.vcxproj">
+      <Project>4BCA4449-3A31-4CA1-A988-4E8ECB64757B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Isosurf/Sample_Isosurf.vcxproj">
+      <Project>ACC87C16-31AE-4A6B-A308-3609CC465D7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Lighting/Sample_Lighting.vcxproj">
+      <Project>161C665F-ADDA-4E62-839B-B5576CD5CACB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/MeshLod/Sample_MeshLod.vcxproj">
+      <Project>68CEA910-7011-45AA-9A04-7924D1856FC7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/NewInstancing/Sample_NewInstancing.vcxproj">
+      <Project>637F82EA-CA61-4D95-9DDA-00226CA7ED40</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/OceanDemo/Sample_Ocean.vcxproj">
+      <Project>5AEB7FDC-4E58-427D-BFDA-47D70BE58243</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/PNTrianglesTessellation/Sample_PNTriangles.vcxproj">
+      <Project>B2CC613E-6D7C-45EF-A7CC-609149D64D61</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/ParticleFX/Sample_ParticleFX.vcxproj">
+      <Project>46115868-AB40-4D30-927A-77EE3E5BB2D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/ParticleGS/Sample_ParticleGS.vcxproj">
+      <Project>C360BA34-3982-4DFC-A816-EA0FF6525384</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/SSAO/Sample_SSAO.vcxproj">
+      <Project>0215319B-B977-4E18-B9F5-15DA34288459</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/ShaderSystem/Sample_ShaderSystem.vcxproj">
+      <Project>238297D0-AACB-48EF-981F-0A453BB9554C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/ShaderSystemMultiLight/Sample_ShaderSystemMultiLight.vcxproj">
+      <Project>F4695AA6-169C-4EFD-87AA-039E7B3CE468</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/ShaderSystemTexturedFog/Sample_ShaderSystemTexturedFog.vcxproj">
+      <Project>F1FB1432-CD78-454E-81EF-96D0882CCFAC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Shadows/Sample_Shadows.vcxproj">
+      <Project>F02113F1-E5F8-472A-A7BA-7C7F8B33A23B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/SkeletalAnimation/Sample_SkeletalAnimation.vcxproj">
+      <Project>DCD9DD2D-8937-44F7-ABB7-88027C2DBD1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/SkyBox/Sample_SkyBox.vcxproj">
+      <Project>97D19904-C51C-45BB-93FF-460C6461F819</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/SkyDome/Sample_SkyDome.vcxproj">
+      <Project>3E81AB37-2D32-4E6E-AF9E-E81C86488737</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/SkyPlane/Sample_SkyPlane.vcxproj">
+      <Project>AA9BB855-70F9-49CA-B977-4748833BF572</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Smoke/Sample_Smoke.vcxproj">
+      <Project>3D7A112B-AC88-4320-8CFE-3322DF1A8E76</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/SphereMapping/Sample_SphereMapping.vcxproj">
+      <Project>611115B9-F762-4DB3-915E-3F5426A26105</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Terrain/Sample_Terrain.vcxproj">
+      <Project>CED46EFA-A15D-40D1-9435-40C97761742B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/TerrainTessellation/Sample_TerrainTessellation.vcxproj">
+      <Project>3FB90BC6-8DA8-4B82-9EE3-2A41DDB2FE19</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Tessellation/Sample_Tessellation.vcxproj">
+      <Project>84398501-9FBA-4031-8A3A-04AD47F8660F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/TextureArray/Sample_TextureArray.vcxproj">
+      <Project>9432FC8B-FD75-4910-90A3-A08983C92A0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/TextureFX/Sample_TextureFX.vcxproj">
+      <Project>8D641F14-06E7-4B06-8D38-A8B7F980F3DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Transparency/Sample_Transparency.vcxproj">
+      <Project>BB81C28D-71FC-475F-ADCE-99AB38A18655</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/VolumeCSG/Sample_VolumeCSG.vcxproj">
+      <Project>A2EC6F3B-2A72-41A1-B00F-119868A6BC76</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/VolumeTerrain/Sample_VolumeTerrain.vcxproj">
+      <Project>E051262F-ECAF-411F-B2EA-897A06214FCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/VolumeTex/Sample_VolumeTex.vcxproj">
+      <Project>2A8EF2BC-9CCF-4B34-A470-9A953BD86BAC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Samples/Water/Sample_Water.vcxproj">
+      <Project>7BAA06C6-5239-4661-B852-28BE333DB5BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Dependencies/src/freetype/freetype.vcxproj">
+      <Project>344D61E0-3A11-4EB4-83DD-078EDE73D906</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Dependencies/src/zlib/zlib.vcxproj">
+      <Project>EA1CFC46-479B-4973-9BCF-A14AD6649637</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ogre/build/Dependencies/src/zziplib/zziplib.vcxproj">
+      <Project>AB85C8D9-271B-49B8-B968-BA88616BA83E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
